@@ -12,9 +12,10 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
 		<Item Name="InitConfigLCR.vi" Type="VI" URL="../InitConfigLCR.vi"/>
-		<Item Name="IVCV_measurement.vi" Type="VI" URL="../IVCV_measurement.vi"/>
-		<Item Name="Needle_measurement.vi" Type="VI" URL="../Needle_measurement.vi"/>
 		<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
+		<Item Name="VoltageScan.vi" Type="VI" URL="../VoltageScan.vi"/>
+		<Item Name="VoltageScan_Old.vi" Type="VI" URL="../VoltageScan_Old.vi"/>
+		<Item Name="VoltageScan_Probecard.vi" Type="VI" URL="../VoltageScan_Probecard.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 428X Series Measure Capacitor D Value.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 428X Series/Examples/Agilent 428X Series Measure Capacitor D Value.vi"/>
