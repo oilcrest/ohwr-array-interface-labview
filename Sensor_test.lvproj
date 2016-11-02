@@ -11,7 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
-		<Item Name="InitConfigLCR.vi" Type="VI" URL="../InitConfigLCR.vi"/>
+		<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
+		<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
+		<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
 		<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
 		<Item Name="VoltageScan.vi" Type="VI" URL="../VoltageScan.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
