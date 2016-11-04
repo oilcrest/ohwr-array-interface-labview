@@ -13,9 +13,18 @@
 		<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
 		<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
 		<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
+		<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
+		<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 		<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
+		<Item Name="sub_CloseDevices.vi" Type="VI" URL="../sub_CloseDevices.vi"/>
+		<Item Name="sub_HandleOutput.vi" Type="VI" URL="../sub_HandleOutput.vi"/>
+		<Item Name="sub_InitDevices.vi" Type="VI" URL="../sub_InitDevices.vi"/>
+		<Item Name="sub_Loop.vi" Type="VI" URL="../sub_Loop.vi"/>
+		<Item Name="sub_ReadInput.vi" Type="VI" URL="../sub_ReadInput.vi"/>
 		<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
 		<Item Name="VoltageScan.vi" Type="VI" URL="../VoltageScan.vi"/>
+		<Item Name="VoltageScan_datastream.vi" Type="VI" URL="../VoltageScan_datastream.vi"/>
+		<Item Name="VoltageScan_easy.vi" Type="VI" URL="../VoltageScan_easy.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent 428X Series Measure Capacitor D Value.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 428X Series/Examples/Agilent 428X Series Measure Capacitor D Value.vi"/>
