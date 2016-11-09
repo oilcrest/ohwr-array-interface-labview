@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
+		<Item Name="ConfigDMM.vi" Type="VI" URL="../ConfigDMM.vi"/>
 		<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
 		<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
 		<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
@@ -30,6 +31,7 @@
 				<Item Name="Agilent 428X Series Measure Capacitor D Value.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 428X Series/Examples/Agilent 428X Series Measure Capacitor D Value.vi"/>
 				<Item Name="Agilent 428X Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 428X Series/Agilent 428X Series.lvlib"/>
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
+				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
@@ -73,6 +75,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
