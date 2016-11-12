@@ -14,6 +14,7 @@
 		<Item Name="ConfigDMM.vi" Type="VI" URL="../ConfigDMM.vi"/>
 		<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
 		<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
+		<Item Name="DisplayExternals.vi" Type="VI" URL="../DisplayExternals.vi"/>
 		<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
 		<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 		<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
@@ -237,6 +238,7 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get Property Type.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/storage/lvStorage.llb/Get Property Type.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
