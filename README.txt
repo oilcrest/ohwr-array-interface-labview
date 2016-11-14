@@ -10,6 +10,7 @@
 #INSTRUCTIONS
  - Drivers: The instrument drivers required for this program to run are put in the folder instr.lib. 
             Place the content of instr.lib into C:\Program Files (x86)\National Instruments\LabVIEW 2016\instr.lib to make LabVIEW aware of them.
+ - Make sure you have VI properties> Execution> "Execution system: user interface" enables
 
 #REQUIREMENTS
 For the attached data analysis code:
@@ -18,7 +19,6 @@ For the attached data analysis code:
 	Acrobat reader for embedded PDF view
 
 #TODO
- - add info to data file
  - wire stop button to ramp
  - combine input parameters and dynamic data in one file
  - state machine with two ramps, input queues (check channels example)
@@ -29,3 +29,5 @@ For the attached data analysis code:
 #TORESOLVE
  - naming the .bat file differently from test.bat results in error
 
+#DONE
+ - add info to data file
