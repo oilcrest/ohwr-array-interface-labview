@@ -13,8 +13,9 @@
  - Make sure you have VI properties> Execution> "Execution system: user interface" enables
 
 #REQUIREMENTS
-For the attached data analysis code:
+For the "Open after execution" funtionality:
 	Windows operating system for "Open after execution" functionality (notepad.exe)
+For the "Plot after execution" funtionality:
 	HexPlot.exe uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed
 	Acrobat reader for embedded PDF view
 
@@ -26,8 +27,6 @@ For the attached data analysis code:
  - make save file dialog for output file and save pdf in same location
  - implement switch card syntax and control
 
-#TORESOLVE
- - naming the .bat file differently from test.bat results in error
-
 #DONE
  - add info to data file
+ - naming the .bat file differently from test.bat results in error
