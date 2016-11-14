@@ -20,13 +20,13 @@ For the "Plot after execution" funtionality:
 	Acrobat reader for embedded PDF view
 
 #TODO
- - wire stop button to ramp
- - combine input parameters and dynamic data in one file
+ - test stop button effect during ramp
+ - voltage input from front panel rather than from file
+ - make default data directory
+ - combine input parameters and dynamic data in one stream
  - state machine with two ramps, input queues (check channels example)
  - asynchronous Message Communication (AMC) Library
- - make save file dialog for output file and save pdf in same location
- - implement switch card syntax and control
+ - implement switch card syntax and contro
 
-#DONE
- - add info to data file
- - naming the .bat file differently from test.bat results in error
+#DONE since last commit
+ - make save file dialog for output file and save pdf in same location
