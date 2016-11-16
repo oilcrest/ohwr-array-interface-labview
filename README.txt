@@ -20,6 +20,7 @@ For the "Plot after execution" funtionality:
 	Acrobat reader for embedded PDF view
 
 #TODO
+ - test "Use source as DMM"
  - test stop button effect during ramp
  - combine input parameters and dynamic data in one stream
  - state machine with two ramps, input queues (check channels example)
@@ -27,6 +28,4 @@ For the "Plot after execution" funtionality:
  - implement switch card syntax and contro
 
 #DONE since last commit
- - make save file dialog for output file and save pdf in same location
- - voltage input from front panel rather than from file
- - make default data directory
+ - switch to use source meter as DMM
