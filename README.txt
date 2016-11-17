@@ -29,3 +29,4 @@ For the "Plot after execution" funtionality:
 
 #DONE since last commit
  - switch to use source meter as DMM
+ - added output file axctive x text box
