@@ -20,13 +20,12 @@ For the "Plot after execution" funtionality:
 	Acrobat reader for embedded PDF view
 
 #TODO
- - test "Use source as DMM"
- - test stop button effect during ramp
+ - make data and ge file location relative
+ - fix stop button effect during ramp
  - combine input parameters and dynamic data in one stream
  - state machine with two ramps, input queues (check channels example)
  - asynchronous Message Communication (AMC) Library
  - implement switch card syntax and contro
 
 #DONE since last commit
- - switch to use source meter as DMM
- - added output file axctive x text box
+ - test "Use source as DMM"
