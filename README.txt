@@ -20,12 +20,20 @@ For the "Plot after execution" funtionality:
 	Acrobat reader for embedded PDF view
 
 #TODO
- - make data and ge file location relative
  - fix stop button effect during ramp
+ - save total source current
+ - consider displaying only one or two or three last voltages in all channel plot
  - combine input parameters and dynamic data in one stream
  - state machine with two ramps, input queues (check channels example)
  - asynchronous Message Communication (AMC) Library
  - implement switch card syntax and contro
+ - put entire input values in header
+ - display total current on 2410 while running
+ - overwrite file dialogue
+ - save Cp-Rp and Z-theta info (either by own calculation or from measurement)
+ - make plot axis label in nA and pF
 
 #DONE since last commit
- - test "Use source as DMM"
+- integration filter added to DMMs
+- autorange hidden and different for 2450 and 2410!
+ - test autorange setting after changing measurement type from voltage to current in source meter!

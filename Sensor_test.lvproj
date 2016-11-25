@@ -25,7 +25,9 @@
 		<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
 		<Item Name="DisplayExternals.vi" Type="VI" URL="../DisplayExternals.vi"/>
 		<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
+		<Item Name="FinalBeep.vi" Type="VI" URL="../../../FinalBeep.vi"/>
 		<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
+		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
 		<Item Name="sub_CloseDevices.vi" Type="VI" URL="../sub_CloseDevices.vi"/>
 		<Item Name="sub_HandleOutput.vi" Type="VI" URL="../sub_HandleOutput.vi"/>
@@ -33,22 +35,18 @@
 		<Item Name="sub_Loop.vi" Type="VI" URL="../sub_Loop.vi"/>
 		<Item Name="sub_ReadInput.vi" Type="VI" URL="../sub_ReadInput.vi"/>
 		<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
-		<Item Name="VoltageScan.vi" Type="VI" URL="../VoltageScan.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Agilent 428X Series Measure Capacitor D Value.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent 428X Series/Examples/Agilent 428X Series Measure Capacitor D Value.vi"/>
-				<Item Name="Agilent 428X Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 428X Series/Agilent 428X Series.lvlib"/>
+				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
 				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Close Panel No Abort.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/Close Panel No Abort.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
@@ -90,7 +88,6 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="viRef buffer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/victl.llb/viRef buffer.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
