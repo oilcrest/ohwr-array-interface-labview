@@ -13,9 +13,9 @@
  - Make sure you have VI properties> Execution> "Execution system: user interface" enables
 
 #REQUIREMENTS
-For the "Open after execution" funtionality:
+For the "Open after execution" functionality:
 	Windows operating system for "Open after execution" functionality (notepad.exe)
-For the "Plot after execution" funtionality:
+For the "Plot after execution" functionality:
 	HexPlot.exe uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed
 	Acrobat reader for embedded PDF view
 
@@ -25,7 +25,7 @@ For the "Plot after execution" funtionality:
  - combine input parameters and dynamic data in one stream
  - state machine with two ramps, input queues (check channels example)
  - asynchronous Message Communication (AMC) Library
- - implement switch card syntax and contro
+ - implement switch card syntax and control
  - consider displaying only one or two or three last voltages in all channel plot
 
 #DONE since last commit
