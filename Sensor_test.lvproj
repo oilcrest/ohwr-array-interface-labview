@@ -26,6 +26,7 @@
 		<Item Name="DisplayExternals.vi" Type="VI" URL="../DisplayExternals.vi"/>
 		<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
 		<Item Name="FinalBeep.vi" Type="VI" URL="../FinalBeep.vi"/>
+		<Item Name="FormatDataFile.vi" Type="VI" URL="../FormatDataFile.vi"/>
 		<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>

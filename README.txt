@@ -29,10 +29,3 @@ For the "Plot after execution" funtionality:
  - consider displaying only one or two or three last voltages in all channel plot
 
 #DONE since last commit
-- integration filter added to DMMs
-- autorange hidden and different for 2450 and 2410!
-- test autorange setting after changing measurement type from voltage to current in source meter!
-- make plot axis label in nA and pF
-- overwrite file dialogue
-- save total source current, display total current on 2410 while running
-- put entire input values in header
