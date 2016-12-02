@@ -17,7 +17,7 @@ For the "Open after execution" functionality:
 	Windows operating system for "Open after execution" functionality (notepad.exe)
 For the "Plot after execution" functionality:
 	HexPlot.exe uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed
-	Acrobat reader for embedded PDF view
+	Acrobat Reader(TM) for embedded PDF view
 
 #TODO
  - fix stop button effect during ramp
