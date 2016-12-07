@@ -20,6 +20,8 @@ For the "Plot after execution" functionality:
 	Acrobat Reader(TM) for embedded PDF view
 
 #TODO
+ - overlay of all IV curves
+ - recompile HexPlot.exe to enable special yscale for test values
  - fix stop button effect during ramp
  - save Cp-Rp and Z-theta info (either by own calculation or from measurement)
  - combine input parameters and dynamic data in one stream
