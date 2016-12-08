@@ -21,9 +21,7 @@ For the "Plot after execution" functionality:
 
 #TODO
  - overlay of all IV curves
- - recompile HexPlot.exe to enable special yscale for test values
  - fix stop button effect during ramp
- - save Cp, Cs and Z-theta info
  - combine input parameters and dynamic data in one stream
  - state machine with two ramps, input queues (check channels example)
  - asynchronous Message Communication (AMC) Library

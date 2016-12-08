@@ -20,6 +20,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
+		<Item Name="CalculateCapacitance.vi" Type="VI" URL="../CalculateCapacitance.vi"/>
 		<Item Name="ConfigDMM.vi" Type="VI" URL="../ConfigDMM.vi"/>
 		<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
 		<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
