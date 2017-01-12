@@ -21,6 +21,7 @@ For the "Plot after execution" functionality:
 
 #TODO
  - overlay of all IV curves
+ - measurement uncertainty, either in LabVIEW or in measurement device
  - fix stop button effect during ramp
  - combine input parameters and dynamic data in one stream
  - state machine with two ramps, input queues (check channels example)

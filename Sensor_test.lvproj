@@ -10,6 +10,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -20,6 +21,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
+		<Item Name="CloseDMM.vi" Type="VI" URL="../CloseDMM.vi"/>
 		<Item Name="CalculateCapacitance.vi" Type="VI" URL="../CalculateCapacitance.vi"/>
 		<Item Name="ConfigDMM.vi" Type="VI" URL="../ConfigDMM.vi"/>
 		<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
@@ -30,6 +32,7 @@
 		<Item Name="FormatDataFile.vi" Type="VI" URL="../FormatDataFile.vi"/>
 		<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="MeasureDMM.vi" Type="VI" URL="../MeasureDMM.vi"/>
 		<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
 		<Item Name="sub_CloseDevices.vi" Type="VI" URL="../sub_CloseDevices.vi"/>
 		<Item Name="sub_HandleOutput.vi" Type="VI" URL="../sub_HandleOutput.vi"/>
@@ -37,11 +40,30 @@
 		<Item Name="sub_Loop.vi" Type="VI" URL="../sub_Loop.vi"/>
 		<Item Name="sub_ReadInput.vi" Type="VI" URL="../sub_ReadInput.vi"/>
 		<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
+		<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
+				<Item Name="GPIB Send Message.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/GPIB Send Message.vi"/>
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
+				<Item Name="Keithley 2001 2-W Res Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 2-W Res Config.vi"/>
+				<Item Name="Keithley 2001 4-W Res Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 4-W Res Config.vi"/>
+				<Item Name="Keithley 2001 ACI Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 ACI Config.vi"/>
+				<Item Name="Keithley 2001 ACV Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 ACV Config.vi"/>
+				<Item Name="Keithley 2001 DCI Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 DCI Config.vi"/>
+				<Item Name="Keithley 2001 DCV Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 DCV Config.vi"/>
+				<Item Name="Keithley 2001 Freq Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Freq Config.vi"/>
+				<Item Name="Keithley 2001 RTD Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 RTD Config.vi"/>
 				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
+				<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Read SCPI Error Queue (GPIB).vi"/>
+				<Item Name="Error Query Global.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Error Query Global.vi"/>
+				<Item Name="Keith 2001 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keith 2001 Error Query.vi"/>
+				<Item Name="Keith 2001 Reset / Preset.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keith 2001 Reset / Preset.vi"/>
+				<Item Name="Keithley 2001 Trigger Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Trigger Config.vi"/>
+				<Item Name="Keithley 2001 Arm2 Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Arm2 Config.vi"/>
+				<Item Name="Keithley 2001 Arm Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Arm Config.vi"/>
+				<Item Name="Keithley 2001 Single Read.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Single Read.vi"/>
+				<Item Name="GPIB Receive Message.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/GPIB Receive Message.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -100,6 +122,7 @@
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Parse Address String.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_gpibsup.llb/Parse Address String.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
