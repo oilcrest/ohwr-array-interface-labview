@@ -41,6 +41,7 @@
 		<Item Name="sub_ReadInput.vi" Type="VI" URL="../sub_ReadInput.vi"/>
 		<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
 		<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>
+		<Item Name="Keithley 2001 Select Active Terminals.vi" Type="VI" URL="../Keithley 2001 Select Active Terminals.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
