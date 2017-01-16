@@ -42,29 +42,11 @@
 		<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
 		<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>
 		<Item Name="Keithley 2001 Select Active Terminals.vi" Type="VI" URL="../Keithley 2001 Select Active Terminals.vi"/>
+		<Item Name="MeasureSource.vi" Type="VI" URL="../MeasureSource.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
-				<Item Name="GPIB Send Message.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/GPIB Send Message.vi"/>
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
-				<Item Name="Keithley 2001 2-W Res Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 2-W Res Config.vi"/>
-				<Item Name="Keithley 2001 4-W Res Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 4-W Res Config.vi"/>
-				<Item Name="Keithley 2001 ACI Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 ACI Config.vi"/>
-				<Item Name="Keithley 2001 ACV Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 ACV Config.vi"/>
-				<Item Name="Keithley 2001 DCI Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 DCI Config.vi"/>
-				<Item Name="Keithley 2001 DCV Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 DCV Config.vi"/>
-				<Item Name="Keithley 2001 Freq Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Freq Config.vi"/>
-				<Item Name="Keithley 2001 RTD Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 RTD Config.vi"/>
 				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
-				<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Read SCPI Error Queue (GPIB).vi"/>
-				<Item Name="Error Query Global.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Error Query Global.vi"/>
-				<Item Name="Keith 2001 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keith 2001 Error Query.vi"/>
-				<Item Name="Keith 2001 Reset / Preset.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keith 2001 Reset / Preset.vi"/>
-				<Item Name="Keithley 2001 Trigger Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Trigger Config.vi"/>
-				<Item Name="Keithley 2001 Arm2 Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Arm2 Config.vi"/>
-				<Item Name="Keithley 2001 Arm Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Arm Config.vi"/>
-				<Item Name="Keithley 2001 Single Read.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Single Read.vi"/>
-				<Item Name="GPIB Receive Message.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/GPIB Receive Message.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -125,6 +107,25 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Parse Address String.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_gpibsup.llb/Parse Address String.vi"/>
 			</Item>
+			<Item Name="GPIB Send Message.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/GPIB Send Message.vi"/>
+			<Item Name="Keithley 2001 2-W Res Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 2-W Res Config.vi"/>
+			<Item Name="Keithley 2001 4-W Res Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 4-W Res Config.vi"/>
+			<Item Name="Keithley 2001 ACI Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 ACI Config.vi"/>
+			<Item Name="Keithley 2001 ACV Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 ACV Config.vi"/>
+			<Item Name="Keithley 2001 DCI Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 DCI Config.vi"/>
+			<Item Name="Keithley 2001 DCV Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 DCV Config.vi"/>
+			<Item Name="Keithley 2001 Freq Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Freq Config.vi"/>
+			<Item Name="Keithley 2001 RTD Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 RTD Config.vi"/>
+			<Item Name="Keith 2001 Reset / Preset.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keith 2001 Reset / Preset.vi"/>
+			<Item Name="Keithley 2001 Single Read.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Single Read.vi"/>
+			<Item Name="Error Query Global.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Error Query Global.vi"/>
+			<Item Name="GPIB Receive Message.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/GPIB Receive Message.vi"/>
+			<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Read SCPI Error Queue (GPIB).vi"/>
+			<Item Name="Keith 2001 Error Query.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keith 2001 Error Query.vi"/>
+			<Item Name="Agilent E4980.lvlib" Type="Library" URL="../instr.lib/Agilent E4980/Agilent E4980.lvlib"/>
+			<Item Name="Keithley 2001 Arm2 Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Arm2 Config.vi"/>
+			<Item Name="Keithley 2001 Arm Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Arm Config.vi"/>
+			<Item Name="Keithley 2001 Trigger Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Trigger Config.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

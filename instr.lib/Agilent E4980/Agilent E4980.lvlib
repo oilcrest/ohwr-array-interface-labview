@@ -45,7 +45,7 @@
 			<Item Name="Correction" Type="Folder">
 				<Item Name="Configure Correction.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Correction/Configure Correction.vi"/>
 				<Item Name="Configure Correction Spot.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Correction/Configure Correction Spot.vi"/>
-				<Item Name="Configure Correction State.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Correction/Configure Correction State.vi"/>
+				<Item Name="Configure Correction State.vi" Type="VI" URL="../Public/Configure/Correction/Configure Correction State.vi"/>
 				<Item Name="Correction.mnu" Type="Document" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Correction/Correction.mnu"/>
 			</Item>
 			<Item Name="List Sweep" Type="Folder">
@@ -53,10 +53,10 @@
 				<Item Name="Configure List Band.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/List Sweep/Configure List Band.vi"/>
 				<Item Name="List Sweep.mnu" Type="Document" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/List Sweep/List Sweep.mnu"/>
 			</Item>
-			<Item Name="Configure Measurement.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Configure Measurement.vi"/>
-			<Item Name="Configure Measurement Signal.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Configure Measurement Signal.vi"/>
+			<Item Name="Configure Measurement.vi" Type="VI" URL="../Public/Configure/Configure Measurement.vi"/>
+			<Item Name="Configure Measurement Signal.vi" Type="VI" URL="../Public/Configure/Configure Measurement Signal.vi"/>
 			<Item Name="Configure DC Bias.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Configure DC Bias.vi"/>
-			<Item Name="Configure Aperture.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Configure Aperture.vi"/>
+			<Item Name="Configure Aperture.vi" Type="VI" URL="../Public/Configure/Configure Aperture.vi"/>
 			<Item Name="Configure Initiate Continuous.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Configure Initiate Continuous.vi"/>
 			<Item Name="Configure Trigger.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Configure Trigger.vi"/>
 			<Item Name="Configure Auto Level Control.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Configure/Configure Auto Level Control.vi"/>
@@ -70,9 +70,9 @@
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="Low Level" Type="Folder">
-				<Item Name="Initiate.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Low Level/Initiate.vi"/>
+				<Item Name="Initiate.vi" Type="VI" URL="../Public/Data/Low Level/Initiate.vi"/>
 				<Item Name="Abort.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Low Level/Abort.vi"/>
-				<Item Name="Fetch Measurement Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Low Level/Fetch Measurement Data.vi"/>
+				<Item Name="Fetch Measurement Data.vi" Type="VI" URL="../Public/Data/Low Level/Fetch Measurement Data.vi"/>
 				<Item Name="Read Functional Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Low Level/Read Functional Data.vi"/>
 				<Item Name="Read Functional Data (AC Monitor).vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Low Level/Read Functional Data (AC Monitor).vi"/>
 				<Item Name="Read Functional Data (DC Monitor).vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Low Level/Read Functional Data (DC Monitor).vi"/>
@@ -81,12 +81,12 @@
 				<Item Name="Read Functional Data (Multiple Correction).vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Low Level/Read Functional Data (Multiple Correction).vi"/>
 				<Item Name="Low Level.mnu" Type="Document" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Low Level/Low Level.mnu"/>
 			</Item>
-			<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Read.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="../Public/Data/Read.vi"/>
 			<Item Name="Data.mnu" Type="Document" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Data/Data.mnu"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
-			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Utility/Error Query.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Utility/Reset.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Utility/Revision Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Utility/Self-Test.vi"/>
 			<Item Name="Option Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Utility/Option Query.vi"/>
@@ -97,14 +97,14 @@
 			<Item Name="Configure System (Information).vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Utility/Configure System (Information).vi"/>
 			<Item Name="Utility.mnu" Type="Document" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Utility/Utility.mnu"/>
 		</Item>
-		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/Initialize.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Public/VI Tree.vi"/>
 		<Item Name="dir.mnu" Type="Document" URL="/&lt;instrlib&gt;/Agilent E4980/Public/dir.mnu"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Agilent E4980/Private/Default Instrument Setup.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
 	</Item>
 	<Item Name="Agilent E4980 Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980 Readme.html"/>
 </Library>
