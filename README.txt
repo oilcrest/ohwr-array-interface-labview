@@ -28,5 +28,7 @@ For the "Plot after execution" functionality:
  - asynchronous Message Communication (AMC) Library
  - implement switch card syntax and control
  - consider displaying only one or two or three last voltages in all channel plot
+ - abort when compliance is reached
+ - 1/C^2 plot auto save for single channel plot
 
 #DONE since last commit
