@@ -51,6 +51,13 @@
 		<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="../../../LabVIEW_examples/SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
 		<Item Name="EnvSensors.vi" Type="VI" URL="../EnvSensors.vi"/>
 		<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
+		<Item Name="SwitchBoard_init.vi" Type="VI" URL="../SwitchBoard_init.vi"/>
+		<Item Name="SwitchBoard_error.vi" Type="VI" URL="../SwitchBoard_error.vi"/>
+		<Item Name="SwitchBoard_close.vi" Type="VI" URL="../SwitchBoard_close.vi"/>
+		<Item Name="SwitchBoard_query.vi" Type="VI" URL="../SwitchBoard_query.vi"/>
+		<Item Name="SwitchBoard_write.vi" Type="VI" URL="../SwitchBoard_write.vi"/>
+		<Item Name="SwitchBoard_test.vi" Type="VI" URL="../SwitchBoard_test.vi"/>
+		<Item Name="SwitchBoard_switch.vi" Type="VI" URL="../SwitchBoard_switch.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
@@ -158,6 +165,22 @@
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Tag-t&apos;Env_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Env_data.ctl&apos;.lvlib"/>
 			<Item Name="iowkit.dll" Type="Document" URL="iowkit.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FT_Set_RTS.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Set_RTS.vi"/>
+			<Item Name="FT_Set_DTR.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Set_DTR.vi"/>
+			<Item Name="FT_Purge.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Purge.vi"/>
+			<Item Name="FT_Set_Flow_Control.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Set_Flow_Control.vi"/>
+			<Item Name="FT_Set_Data_Characteristics.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Set_Data_Characteristics.vi"/>
+			<Item Name="FT_Set_Baud_Rate.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Set_Baud_Rate.vi"/>
+			<Item Name="FT_Reset_Device.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Reset_Device.vi"/>
+			<Item Name="FT_Open_Device_By_Description.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Open_Device_By_Description.vi"/>
+			<Item Name="FT_Get_Device_Description_By_Index.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Get_Device_Description_By_Index.vi"/>
+			<Item Name="FT_Read_String_Data.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Read_String_Data.vi"/>
+			<Item Name="FT_Get_Queue_Status.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Get_Queue_Status.vi"/>
+			<Item Name="FT_Write_String_Data.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Write_String_Data.vi"/>
+			<Item Name="FT_Close_Device.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Close_Device.vi"/>
+			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
