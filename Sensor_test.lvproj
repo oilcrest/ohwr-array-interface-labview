@@ -38,7 +38,7 @@
 		<Item Name="sub_InitDevices.vi" Type="VI" URL="../sub_InitDevices.vi"/>
 		<Item Name="sub_Loop.vi" Type="VI" URL="../sub_Loop.vi"/>
 		<Item Name="sub_ReadInput.vi" Type="VI" URL="../sub_ReadInput.vi"/>
-		<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
+		<Item Name="SwitchBoard.vi" Type="VI" URL="../SwitchBoard.vi"/>
 		<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>
 		<Item Name="MeasureSource.vi" Type="VI" URL="../MeasureSource.vi"/>
 		<Item Name="Prepare_XY_graph.vi" Type="VI" URL="../Prepare_XY_graph.vi"/>
@@ -58,6 +58,8 @@
 		<Item Name="SwitchBoard_write.vi" Type="VI" URL="../SwitchBoard_write.vi"/>
 		<Item Name="SwitchBoard_test.vi" Type="VI" URL="../SwitchBoard_test.vi"/>
 		<Item Name="SwitchBoard_switch.vi" Type="VI" URL="../SwitchBoard_switch.vi"/>
+		<Item Name="SwitchBoard_ToggleDisplay.vi" Type="VI" URL="../SwitchBoard_ToggleDisplay.vi"/>
+		<Item Name="EnvData.vi" Type="VI" URL="../EnvData.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
@@ -183,6 +185,7 @@
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
