@@ -44,11 +44,11 @@
 		<Item Name="Prepare_XY_graph.vi" Type="VI" URL="../Prepare_XY_graph.vi"/>
 		<Item Name="ReadSourceVoltage.vi" Type="VI" URL="../ReadSourceVoltage.vi"/>
 		<Item Name="MeasureLCR.vi" Type="VI" URL="../MeasureLCR.vi"/>
-		<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="../../../LabVIEW_examples/SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
-		<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="../../../LabVIEW_examples/SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
-		<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="../../../LabVIEW_examples/SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
-		<Item Name="IOWarrior_SHT75_main.vi" Type="VI" URL="../../../LabVIEW_examples/SHT75_IOWarrior.llb/IOWarrior_SHT75_main.vi"/>
-		<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="../../../LabVIEW_examples/SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
+		<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
+		<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
+		<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
+		<Item Name="IOWarrior_SHT75_main.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_main.vi"/>
+		<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
 		<Item Name="EnvSensors.vi" Type="VI" URL="../EnvSensors.vi"/>
 		<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
 		<Item Name="SwitchBoard_init.vi" Type="VI" URL="../SwitchBoard_init.vi"/>
@@ -65,7 +65,6 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
 				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
-				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -125,10 +124,6 @@
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
-				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
-				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
@@ -139,6 +134,10 @@
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 			</Item>
 			<Item Name="GPIB Send Message.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/GPIB Send Message.vi"/>
 			<Item Name="Keithley 2001 2-W Res Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 2-W Res Config.vi"/>
@@ -160,16 +159,12 @@
 			<Item Name="Keithley 2001 Arm Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Arm Config.vi"/>
 			<Item Name="Keithley 2001 Trigger Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Trigger Config.vi"/>
 			<Item Name="CalculateCapacitance.vi" Type="VI" URL="../CalculateCapacitance.vi"/>
-			<Item Name="8bit-to-binary.vi" Type="VI" URL="../../../LabVIEW_examples/SHT75_IOWarrior.llb/8bit-to-binary.vi"/>
 			<Item Name="iowkit.dll" Type="Document" URL="../iowkit.dll"/>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Tag-t&apos;Env_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Env_data.ctl&apos;.lvlib"/>
-			<Item Name="iowkit.dll" Type="Document" URL="iowkit.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="FT_Set_RTS.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Set_RTS.vi"/>
 			<Item Name="FT_Set_DTR.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Set_DTR.vi"/>
 			<Item Name="FT_Purge.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Purge.vi"/>
@@ -189,6 +184,10 @@
 			<Item Name="Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib"/>
 			<Item Name="Tag-t&apos;Dynamic_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Dynamic_data.ctl&apos;.lvlib"/>
 			<Item Name="Tag-str.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-str.lvlib"/>
+			<Item Name="8bit-to-binary.vi" Type="VI" URL="../SHT75_IOWarrior.llb/8bit-to-binary.vi"/>
+			<Item Name="iowkit.dll" Type="Document" URL="iowkit.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

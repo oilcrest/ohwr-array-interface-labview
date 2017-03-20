@@ -18,6 +18,8 @@ For the "Open after execution" functionality:
 For the "Plot after execution" functionality:
 	HexPlot.exe uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed
 	Acrobat Reader(TM) for embedded PDF view
+For the Sensirion SHT1x/7x sensors:
+	Install software     Viewer Software Humidity Evaluation Kit EK-H5 
 
 #TODO
  - overlay of all IV curves
