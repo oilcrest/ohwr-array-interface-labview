@@ -19,7 +19,9 @@ For the "Plot after execution" functionality:
 	HexPlot.exe uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed
 	Acrobat Reader(TM) for embedded PDF view
 For the Sensirion SHT1x/7x sensors:
-	Install software     Viewer Software Humidity Evaluation Kit EK-H5 
+	Install software     Viewer Software Humidity Evaluation Kit EK-H5
+For Ke6487:
+	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
  - overlay of all IV curves

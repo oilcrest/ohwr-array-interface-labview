@@ -13,12 +13,12 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Default Instrument Setup.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Private/Default Instrument Setup.vi"/>
+		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Action-Status" Type="Folder">
-			<Item Name="Enable Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Action-Status/Enable Output.vi"/>
+			<Item Name="Enable Output.vi" Type="VI" URL="../Public/Action-Status/Enable Output.vi"/>
 			<Item Name="Enable Remote Sensing.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Action-Status/Enable Remote Sensing.vi"/>
 			<Item Name="In Compliance Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Action-Status/In Compliance Query.vi"/>
 			<Item Name="Set or Reset Digital IO Pins.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Action-Status/Set or Reset Digital IO Pins.vi"/>
@@ -41,7 +41,7 @@
 			<Item Name="Configure Data Format.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Data Format.vi"/>
 			<Item Name="Configure Digits for Display.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Digits for Display.vi"/>
 			<Item Name="Configure Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Filter.vi"/>
-			<Item Name="Configure Integration Filter.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Integration Filter.vi"/>
+			<Item Name="Configure Integration Filter.vi" Type="VI" URL="../Public/Configure/Configure Integration Filter.vi"/>
 			<Item Name="Configure Limit Test Auto Clear.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Limit Test Auto Clear.vi"/>
 			<Item Name="Configure Limit Test Clear.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Limit Test Clear.vi"/>
 			<Item Name="Configure Limit Test Lower Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Limit Test Lower Limit.vi"/>
@@ -53,16 +53,16 @@
 			<Item Name="Configure Math.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Math.vi"/>
 			<Item Name="Configure Measurement Auto Range Lower Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Measurement Auto Range Lower Limit.vi"/>
 			<Item Name="Configure Measurement Auto Range Upper Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Measurement Auto Range Upper Limit.vi"/>
-			<Item Name="Configure Measurement Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Measurement Function.vi"/>
-			<Item Name="Configure Measurement Manual Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Measurement Manual Range.vi"/>
-			<Item Name="Configure Measurement Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Measurement Range.vi"/>
+			<Item Name="Configure Measurement Function.vi" Type="VI" URL="../Public/Configure/Configure Measurement Function.vi"/>
+			<Item Name="Configure Measurement Manual Range.vi" Type="VI" URL="../Public/Configure/Configure Measurement Manual Range.vi"/>
+			<Item Name="Configure Measurement Range.vi" Type="VI" URL="../Public/Configure/Configure Measurement Range.vi"/>
 			<Item Name="Configure Measure User Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Measure User Delay.vi"/>
 			<Item Name="Configure Offset Compensation.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Offset Compensation.vi"/>
 			<Item Name="Configure Output List.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Output List.vi"/>
 			<Item Name="Configure Output Off Behavior.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Output Off Behavior.vi"/>
 			<Item Name="Configure Output Sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Output Sweep.vi"/>
-			<Item Name="Configure Output.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Output.vi"/>
-			<Item Name="Configure Over Voltage Protection.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Over Voltage Protection.vi"/>
+			<Item Name="Configure Output.vi" Type="VI" URL="../Public/Configure/Configure Output.vi"/>
+			<Item Name="Configure Over Voltage Protection.vi" Type="VI" URL="../Public/Configure/Configure Over Voltage Protection.vi"/>
 			<Item Name="Configure Pulse Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Pulse Limit.vi"/>
 			<Item Name="Configure Pulse List Sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Pulse List Sweep.vi"/>
 			<Item Name="Configure Pulse Sweep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Pulse Sweep.vi"/>
@@ -71,9 +71,9 @@
 			<Item Name="Configure Relative Offset.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Relative Offset.vi"/>
 			<Item Name="Configure Settling Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Settling Delay.vi"/>
 			<Item Name="Configure Source Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Source Function.vi"/>
-			<Item Name="Configure Source Level.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Source Level.vi"/>
-			<Item Name="Configure Source Limit Level.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Source Limit Level.vi"/>
-			<Item Name="Configure Source Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Source Range.vi"/>
+			<Item Name="Configure Source Level.vi" Type="VI" URL="../Public/Configure/Configure Source Level.vi"/>
+			<Item Name="Configure Source Limit Level.vi" Type="VI" URL="../Public/Configure/Configure Source Limit Level.vi"/>
+			<Item Name="Configure Source Range.vi" Type="VI" URL="../Public/Configure/Configure Source Range.vi"/>
 			<Item Name="Configure Source User Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Source User Delay.vi"/>
 			<Item Name="Configure Specific Limit Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure Specific Limit Test.vi"/>
 			<Item Name="Configure System Access Permission.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Configure System Access Permission.vi"/>
@@ -116,7 +116,7 @@
 			<Item Name="Enable Limit Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Enable Limit Test.vi"/>
 			<Item Name="Enable Logging.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Enable Logging.vi"/>
 			<Item Name="Enable Math Operation.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Enable Math Operation.vi"/>
-			<Item Name="Enable Measurement Auto Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Enable Measurement Auto Range.vi"/>
+			<Item Name="Enable Measurement Auto Range.vi" Type="VI" URL="../Public/Configure/Enable Measurement Auto Range.vi"/>
 			<Item Name="Enable Source Auto Range.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Enable Source Auto Range.vi"/>
 			<Item Name="Enable Source Read Back.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Enable Source Read Back.vi"/>
 			<Item Name="Get Time.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Time.vi"/>
@@ -149,7 +149,7 @@
 			<Item Name="Get Source Configuration List Settings.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Source Configuration List Settings.vi"/>
 			<Item Name="Get Source Configuration List Size.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Source Configuration List Size.vi"/>
 			<Item Name="Get Source Delay.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Source Delay.vi"/>
-			<Item Name="Get Source Function.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Source Function.vi"/>
+			<Item Name="Get Source Function.vi" Type="VI" URL="../Public/Configure/Get Source Function.vi"/>
 			<Item Name="Get Source Level.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Source Level.vi"/>
 			<Item Name="Get Source Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Source Limit.vi"/>
 			<Item Name="Get Source List Points.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Configure/Get Source List Points.vi"/>
@@ -206,7 +206,7 @@
 			<Item Name="Query Limit Test Data.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Data/Query Limit Test Data.vi"/>
 			<Item Name="Read (Digitize).vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Data/Read (Digitize).vi"/>
 			<Item Name="Read (Multiple Points).vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Data/Read (Multiple Points).vi"/>
-			<Item Name="Read (Single Point).vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Data/Read (Single Point).vi"/>
+			<Item Name="Read (Single Point).vi" Type="VI" URL="../Public/Data/Read (Single Point).vi"/>
 			<Item Name="Read.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Data/Read.vi"/>
 			<Item Name="Get Number of Readings in the Buffer.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Data/Get Number of Readings in the Buffer.vi"/>
 			<Item Name="Fetch Read Buffer Statistics.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Data/Fetch Read Buffer Statistics.vi"/>
@@ -220,7 +220,7 @@
 			<Item Name="Emit Beep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Emit Beep.vi"/>
 			<Item Name="Enable Operation Event Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Enable Operation Event Register.vi"/>
 			<Item Name="Enable Questionable Event Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Enable Questionable Event Register.vi"/>
-			<Item Name="Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Error Query.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="../Public/Utility/Error Query.vi"/>
 			<Item Name="Get Active Terminals.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Get Active Terminals.vi"/>
 			<Item Name="Get Event Id Mapped to Bit Number in Operation Event Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Get Event Id Mapped to Bit Number in Operation Event Register.vi"/>
 			<Item Name="Get Event Id Mapped to Bit Number in Questionable Event Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Get Event Id Mapped to Bit Number in Questionable Event Register.vi"/>
@@ -235,9 +235,9 @@
 			<Item Name="Read Questionable Condition Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Read Questionable Condition Register.vi"/>
 			<Item Name="Read Questionable Event Register Status.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Read Questionable Event Register Status.vi"/>
 			<Item Name="Read Questionable Event Register.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Read Questionable Event Register.vi"/>
-			<Item Name="Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Reset.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Public/Utility/Reset.vi"/>
 			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Revision Query.vi"/>
-			<Item Name="Select Active Terminals.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Select Active Terminals.vi"/>
+			<Item Name="Select Active Terminals.vi" Type="VI" URL="../Public/Utility/Select Active Terminals.vi"/>
 			<Item Name="Selected Range Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Selected Range Query.vi"/>
 			<Item Name="Self-Test.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Self-Test.vi"/>
 			<Item Name="Set Display Screen.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Set Display Screen.vi"/>
@@ -255,8 +255,8 @@
 			<Item Name="Calibrate Adjust Source.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Calibrate Adjust Source.vi"/>
 			<Item Name="Calibrate Adjust Source Data Query.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Utility/Calibrate Adjust Source Data Query.vi"/>
 		</Item>
-		<Item Name="Close.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Close.vi"/>
-		<Item Name="Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/Initialize.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
+		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 		<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 2450/Public/VI Tree.vi"/>
 		<Item Name="Keithley 2450 Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450 Readme.html"/>
 	</Item>
