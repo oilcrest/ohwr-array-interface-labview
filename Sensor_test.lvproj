@@ -64,6 +64,7 @@
 		<Item Name="SwitchBoard_write.vi" Type="VI" URL="../SwitchBoard_write.vi"/>
 		<Item Name="Keithley 2450.lvlib" Type="Library" URL="../instr.lib/Keithley 2450/Keithley 2450.lvlib"/>
 		<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../instr.lib/Keithley 24XX/Keithley 24XX.lvlib"/>
+		<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
