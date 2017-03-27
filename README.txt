@@ -10,7 +10,7 @@
 #INSTRUCTIONS
  - Drivers: The instrument drivers required for this program to run are put in the folder instr.lib. 
             Place the content of instr.lib into C:\Program Files (x86)\National Instruments\LabVIEW 2016\instr.lib to make LabVIEW aware of them.
- - Make sure you have VI properties> Execution> "Execution system: user interface" enables
+ - Make sure you have VI properties> Execution> "Execution system: user interface" enabled
 
 #REQUIREMENTS
 For the "Open after execution" functionality:
@@ -24,14 +24,18 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - compare capacitance calculated with LabVIEW to python
+ - reinitialize single channel plot
+ - fix driver locations
+
  - overlay of all IV curves
- - measurement uncertainty, either in LabVIEW or in measurement device
  - fix stop button effect during ramp
- - combine input parameters and dynamic data in one stream
- - state machine with two ramps, input queues (check channels example)
- - asynchronous Message Communication (AMC) Library
- - implement switch card syntax and control
  - consider displaying only one or two or three last voltages in all channel plot
  - abort when compliance is reached
 
 #DONE since last commit
+ - fixed switch matrix buffer readout that caused 0 temperatuture values while scanning
+ - fixed single channel plot saving
+ - fixed absurdely high values of source meter current
+ - added adjustable LCR frequency and voltage settings
+ - fix last line bug in text file

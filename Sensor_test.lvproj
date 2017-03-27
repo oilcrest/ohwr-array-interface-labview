@@ -149,7 +149,6 @@
 			<Item Name="Error Query Global.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Error Query Global.vi"/>
 			<Item Name="FT_Close_Device.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Close_Device.vi"/>
 			<Item Name="FT_Get_Device_Description_By_Index.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Get_Device_Description_By_Index.vi"/>
-			<Item Name="FT_Get_Queue_Status.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Get_Queue_Status.vi"/>
 			<Item Name="FT_Open_Device_By_Description.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Open_Device_By_Description.vi"/>
 			<Item Name="FT_Purge.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Purge.vi"/>
 			<Item Name="FT_Read_String_Data.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Read_String_Data.vi"/>
@@ -197,6 +196,7 @@
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Tag-t&apos;Input_parameters.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Input_parameters.ctl&apos;.lvlib"/>
+			<Item Name="FT_Get_Queue_Status.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Get_Queue_Status.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
