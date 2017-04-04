@@ -25,15 +25,17 @@ For Ke6487:
 
 #TODO
  - compare capacitance calculated with LabVIEW to python
- - reinitialize single channel plot
  - fix driver locations
-
  - overlay of all IV curves
  - fix stop button effect during ramp
  - consider displaying only one or two or three last voltages in all channel plot
  - abort when compliance is reached
 
-#DONE since last commit
+#DONE commit 4.4.2017
+ - reinitialize single channel plot
+ - added possibility for repetitive measurements
+
+#DONE recently
  - fixed switch matrix buffer readout that caused 0 temperatuture values while scanning
  - fixed single channel plot saving
  - fixed absurdely high values of source meter current
