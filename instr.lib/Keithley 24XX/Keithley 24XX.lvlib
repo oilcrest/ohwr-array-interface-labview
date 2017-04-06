@@ -89,7 +89,7 @@
 			<Item Name="Delete Math Operation.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 24XX/Public/Utility/Delete Math Operation.vi"/>
 			<Item Name="Enable Display.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 24XX/Public/Utility/Enable Display.vi"/>
 			<Item Name="Emit Beep.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 24XX/Public/Utility/Emit Beep.vi"/>
-			<Item Name="Display Message.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 24XX/Public/Utility/Display Message.vi"/>
+			<Item Name="Display Message.vi" Type="VI" URL="../Public/Utility/Display Message.vi"/>
 			<Item Name="Select Active Terminals.vi" Type="VI" URL="../Public/Utility/Select Active Terminals.vi"/>
 			<Item Name="Initialize Instrument Memory.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 24XX/Public/Utility/Initialize Instrument Memory.vi"/>
 			<Item Name="Display Measurement.vi" Type="VI" URL="../Public/Utility/Display Measurement.vi"/>
