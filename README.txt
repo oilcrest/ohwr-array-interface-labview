@@ -24,8 +24,10 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - create matrix HexPlot map file
  - speed up
- - add 512 channel matrix test option
+ - temperature correction for IV
+ - automatic remeasurement of a cell's value when unexpectedly different from other cells
 
  - fix driver locations
  - overlay of all IV curves
@@ -33,6 +35,11 @@ For Ke6487:
  - consider displaying only one or two or three last voltages in all channel plot
  - abort when compliance is reached
  - fix voltage measurement by source
+
+#DONE
+ - acquire probe card env sensor data
+ - add 512 channel matrix test option: select sensor type "Full matrix"
+ - separate file for single channel measurements
 
 #DONE commit 6.4.2017
  - added optional pad numbers in hexplot
