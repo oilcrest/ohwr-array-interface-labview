@@ -38,7 +38,7 @@
 		<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
 		<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
 		<Item Name="IOWarrior_SHT75_main.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_main.vi"/>
-		<Item Name="Prepare_XY_graph.vi" Type="VI" URL="../Prepare_XY_graph.vi"/>
+		<Item Name="Prepare_IV_CV_graph.vi" Type="VI" URL="../Prepare_IV_CV_graph.vi"/>
 		<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="MeasureDMM.vi" Type="VI" URL="../MeasureDMM.vi"/>
@@ -69,10 +69,14 @@
 		<Item Name="Prepare_outputfiles.vi" Type="VI" URL="../Prepare_outputfiles.vi"/>
 		<Item Name="Write_Datafile.vi" Type="VI" URL="../Write_Datafile.vi"/>
 		<Item Name="HexPlot_command.vi" Type="VI" URL="../HexPlot_command.vi"/>
+		<Item Name="MultilineIntegerToArray.vi" Type="VI" URL="../MultilineIntegerToArray.vi"/>
+		<Item Name="IsInArray.vi" Type="VI" URL="../IsInArray.vi"/>
+		<Item Name="Prepare_XY_graph.vi" Type="VI" URL="../Prepare_XY_graph.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
+				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>

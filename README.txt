@@ -25,10 +25,6 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
- - custom array for cells to check
- - write out uncertainties
- - separate voltage delay for IV and CV
- - plot total current
  - create matrix HexPlot map file
  - speed up
  - temperature correction for IV
@@ -43,6 +39,12 @@ For Ke6487:
  - consider displaying only one or two or three last voltages in all channel plot
  - abort when compliance is reached
  - fix voltage measurement by source
+
+#DONE
+ - separate voltage delay for IV and CV
+ - custom array for cells to measure
+ - write out uncertainties
+ - plot total current
 
 #DONE commit 21.4.2017
  - new HexPlot.exe to cope with negative voltages when not specifying voltage
