@@ -1,3 +1,4 @@
+
 ###########################################################
 # This is the LabVIEW program for the HGCAL sensor tests
 ###########################################################
@@ -24,10 +25,17 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - custom array for cells to check
+ - write out uncertainties
+ - separate voltage delay for IV and CV
+ - plot total current
  - create matrix HexPlot map file
  - speed up
  - temperature correction for IV
  - automatic remeasurement of a cell's value when unexpectedly different from other cells
+ - make estimated remaining time correct also for IV+CV
+ - 1*NPLC10 or 10*NPLC1 for measurement?
+ - remove space from "Switching matrix"
 
  - fix driver locations
  - overlay of all IV curves
@@ -36,7 +44,13 @@ For Ke6487:
  - abort when compliance is reached
  - fix voltage measurement by source
 
-#DONE
+#DONE commit 21.4.2017
+ - new HexPlot.exe to cope with negative voltages when not specifying voltage
+ - All parameters and HexPlot command written in datafile
+ - Simplified VI's
+ - corrected IV+CV voltage array bug
+
+#DONE commit 7.4.2017
  - acquire probe card env sensor data
  - add 512 channel matrix test option: select sensor type "Full matrix"
  - separate file for single channel measurements
