@@ -10,7 +10,6 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -25,6 +24,7 @@
 		<Item Name="ConfigDMM.vi" Type="VI" URL="../ConfigDMM.vi"/>
 		<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
 		<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
+		<Item Name="DefaultSettings.vi" Type="VI" URL="../DefaultSettings.vi"/>
 		<Item Name="DisplayExternals.vi" Type="VI" URL="../DisplayExternals.vi"/>
 		<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
 		<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
@@ -33,17 +33,24 @@
 		<Item Name="FinalBeep.vi" Type="VI" URL="../FinalBeep.vi"/>
 		<Item Name="FormatDataFile.vi" Type="VI" URL="../FormatDataFile.vi"/>
 		<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>
+		<Item Name="HexPlot_command.vi" Type="VI" URL="../HexPlot_command.vi"/>
 		<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 		<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
 		<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
 		<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
 		<Item Name="IOWarrior_SHT75_main.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_main.vi"/>
-		<Item Name="Prepare_IV_CV_graph.vi" Type="VI" URL="../Prepare_IV_CV_graph.vi"/>
 		<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
+		<Item Name="IsInArray.vi" Type="VI" URL="../IsInArray.vi"/>
+		<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../instr.lib/Keithley 24XX/Keithley 24XX.lvlib"/>
+		<Item Name="Keithley 2450.lvlib" Type="Library" URL="../instr.lib/Keithley 2450/Keithley 2450.lvlib"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="MeasureDMM.vi" Type="VI" URL="../MeasureDMM.vi"/>
 		<Item Name="MeasureLCR.vi" Type="VI" URL="../MeasureLCR.vi"/>
 		<Item Name="MeasureSource.vi" Type="VI" URL="../MeasureSource.vi"/>
+		<Item Name="MultilineIntegerToArray.vi" Type="VI" URL="../MultilineIntegerToArray.vi"/>
+		<Item Name="Prepare_IV_CV_graph.vi" Type="VI" URL="../Prepare_IV_CV_graph.vi"/>
+		<Item Name="Prepare_outputfiles.vi" Type="VI" URL="../Prepare_outputfiles.vi"/>
+		<Item Name="Prepare_XY_graph.vi" Type="VI" URL="../Prepare_XY_graph.vi"/>
 		<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
 		<Item Name="ReadSourceVoltage.vi" Type="VI" URL="../ReadSourceVoltage.vi"/>
 		<Item Name="sub_CloseDevices.vi" Type="VI" URL="../sub_CloseDevices.vi"/>
@@ -56,27 +63,18 @@
 		<Item Name="SwitchBoard_close.vi" Type="VI" URL="../SwitchBoard_close.vi"/>
 		<Item Name="SwitchBoard_error.vi" Type="VI" URL="../SwitchBoard_error.vi"/>
 		<Item Name="SwitchBoard_init.vi" Type="VI" URL="../SwitchBoard_init.vi"/>
+		<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
 		<Item Name="SwitchBoard_query.vi" Type="VI" URL="../SwitchBoard_query.vi"/>
 		<Item Name="SwitchBoard_ReadEnvSensors.vi" Type="VI" URL="../SwitchBoard_ReadEnvSensors.vi"/>
 		<Item Name="SwitchBoard_switch.vi" Type="VI" URL="../SwitchBoard_switch.vi"/>
 		<Item Name="SwitchBoard_test.vi" Type="VI" URL="../SwitchBoard_test.vi"/>
 		<Item Name="SwitchBoard_ToggleDisplay.vi" Type="VI" URL="../SwitchBoard_ToggleDisplay.vi"/>
 		<Item Name="SwitchBoard_write.vi" Type="VI" URL="../SwitchBoard_write.vi"/>
-		<Item Name="Keithley 2450.lvlib" Type="Library" URL="../instr.lib/Keithley 2450/Keithley 2450.lvlib"/>
-		<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../instr.lib/Keithley 24XX/Keithley 24XX.lvlib"/>
-		<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
-		<Item Name="DefaultSettings.vi" Type="VI" URL="../DefaultSettings.vi"/>
-		<Item Name="Prepare_outputfiles.vi" Type="VI" URL="../Prepare_outputfiles.vi"/>
 		<Item Name="Write_Datafile.vi" Type="VI" URL="../Write_Datafile.vi"/>
-		<Item Name="HexPlot_command.vi" Type="VI" URL="../HexPlot_command.vi"/>
-		<Item Name="MultilineIntegerToArray.vi" Type="VI" URL="../MultilineIntegerToArray.vi"/>
-		<Item Name="IsInArray.vi" Type="VI" URL="../IsInArray.vi"/>
-		<Item Name="Prepare_XY_graph.vi" Type="VI" URL="../Prepare_XY_graph.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
-				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
+				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -150,11 +148,15 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="8bit-to-binary.vi" Type="VI" URL="../SHT75_IOWarrior.llb/8bit-to-binary.vi"/>
+			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="Agilent E4980.lvlib" Type="Library" URL="../instr.lib/Agilent E4980/Agilent E4980.lvlib"/>
 			<Item Name="CalculateCapacitance.vi" Type="VI" URL="../CalculateCapacitance.vi"/>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Error Query Global.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Error Query Global.vi"/>
 			<Item Name="FT_Close_Device.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Close_Device.vi"/>
 			<Item Name="FT_Get_Device_Description_By_Index.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Get_Device_Description_By_Index.vi"/>
+			<Item Name="FT_Get_Queue_Status.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Get_Queue_Status.vi"/>
 			<Item Name="FT_Open_Device_By_Description.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Open_Device_By_Description.vi"/>
 			<Item Name="FT_Purge.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Purge.vi"/>
 			<Item Name="FT_Read_String_Data.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Read_String_Data.vi"/>
@@ -188,21 +190,17 @@
 			<Item Name="Keithley 2001 RTD Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 RTD Config.vi"/>
 			<Item Name="Keithley 2001 Single Read.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Single Read.vi"/>
 			<Item Name="Keithley 2001 Trigger Config.vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Keithley 2001 Trigger Config.vi"/>
-			<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Read SCPI Error Queue (GPIB).vi"/>
-			<Item Name="Keithley6487_reset.vi" Type="VI" URL="../Keithley6487_drivers/Keithley6487_reset.vi"/>
-			<Item Name="Keithley6487_formatdata.vi" Type="VI" URL="../Keithley6487_drivers/Keithley6487_formatdata.vi"/>
 			<Item Name="Keithley6487_autozero.vi" Type="VI" URL="../Keithley6487_drivers/Keithley6487_autozero.vi"/>
-			<Item Name="Keithley6487_setrange.vi" Type="VI" URL="../Keithley6487_drivers/Keithley6487_setrange.vi"/>
+			<Item Name="Keithley6487_formatdata.vi" Type="VI" URL="../Keithley6487_drivers/Keithley6487_formatdata.vi"/>
 			<Item Name="Keithley6487_read.vi" Type="VI" URL="../Keithley6487_drivers/Keithley6487_read.vi"/>
-			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="Tag-t&apos;Env_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Env_data.ctl&apos;.lvlib"/>
-			<Item Name="Tag-str.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-str.lvlib"/>
+			<Item Name="Keithley6487_reset.vi" Type="VI" URL="../Keithley6487_drivers/Keithley6487_reset.vi"/>
+			<Item Name="Keithley6487_setrange.vi" Type="VI" URL="../Keithley6487_drivers/Keithley6487_setrange.vi"/>
+			<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="../instr.lib/ke2001/KE2001.LLB/Read SCPI Error Queue (GPIB).vi"/>
 			<Item Name="Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib"/>
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="Tag-str.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-str.lvlib"/>
+			<Item Name="Tag-t&apos;Env_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Env_data.ctl&apos;.lvlib"/>
 			<Item Name="Tag-t&apos;Input_parameters.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Input_parameters.ctl&apos;.lvlib"/>
-			<Item Name="FT_Get_Queue_Status.vi" Type="VI" URL="../SwitchBoard_drivers/FT_Get_Queue_Status.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
