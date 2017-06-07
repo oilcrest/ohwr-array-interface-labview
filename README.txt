@@ -25,6 +25,7 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - finish OpenCorrection
  - create matrix HexPlot map file
  - speed up
  - temperature correction for IV
@@ -40,7 +41,11 @@ For Ke6487:
  - abort when compliance is reached
  - fix voltage measurement by source
 
-#DONE
+#DONE commit 7.6.2017
+ - added option for needle measurement
+ - read values for open correction in (correction not yet applied)
+
+#DONE commits April 2017
  - separate voltage delay for IV and CV
  - custom array for cells to measure
  - write out uncertainties
