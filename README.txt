@@ -1,6 +1,6 @@
-
 ###########################################################
-# This is the LabVIEW program for the HGCAL sensor tests
+#################### H E X D A Q ##########################
+##### The LabVIEW program for the HGCAL sensor tests ######
 ###########################################################
 #Author: Andreas Alexander Maier
 #Email: andreas.alexander.maier@cern.ch
@@ -28,18 +28,23 @@ For Ke6487:
  - finish OpenCorrection
  - create matrix HexPlot map file
  - speed up
- - temperature correction for IV
- - automatic remeasurement of a cell's value when unexpectedly different from other cells
- - make estimated remaining time correct also for IV+CV
  - 1*NPLC10 or 10*NPLC1 for measurement?
  - remove space from "Switching matrix"
+ - for Joseph Tagg
+	 - fix driver locations
+ - low priority
+	 - overlay of all IV curves
+	 - fix stop button effect during ramp
+	 - abort when compliance is reached
+	 - make estimated remaining time correct also for IV+CV
+	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
+	 - temperature correction for IV
 
- - fix driver locations
- - overlay of all IV curves
- - fix stop button effect during ramp
- - consider displaying only one or two or three last voltages in all channel plot
- - abort when compliance is reached
- - fix voltage measurement by source
+#DONE commit 8.6.2017
+ - fix actual voltage measurement from source
+ - renamed main function to HexDAQ
+ - added a field for analyzer's comments
+ - improved front panel
 
 #DONE commit 7.6.2017
  - added option for needle measurement

@@ -34,6 +34,7 @@
 		<Item Name="FinalBeep.vi" Type="VI" URL="../FinalBeep.vi"/>
 		<Item Name="FormatDataFile.vi" Type="VI" URL="../FormatDataFile.vi"/>
 		<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>
+		<Item Name="HexDAQ.vi" Type="VI" URL="../HexDAQ.vi"/>
 		<Item Name="HexPlot_command.vi" Type="VI" URL="../HexPlot_command.vi"/>
 		<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 		<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
@@ -44,7 +45,6 @@
 		<Item Name="IsInArray.vi" Type="VI" URL="../IsInArray.vi"/>
 		<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../instr.lib/Keithley 24XX/Keithley 24XX.lvlib"/>
 		<Item Name="Keithley 2450.lvlib" Type="Library" URL="../instr.lib/Keithley 2450/Keithley 2450.lvlib"/>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="MeasureDMM.vi" Type="VI" URL="../MeasureDMM.vi"/>
 		<Item Name="MeasureLCR.vi" Type="VI" URL="../MeasureLCR.vi"/>
 		<Item Name="MeasureSource.vi" Type="VI" URL="../MeasureSource.vi"/>
