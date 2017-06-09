@@ -25,6 +25,8 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - warn and abort when compliance is reached
+ - different voltage lists with easy switching
  - finish OpenCorrection
  - create matrix HexPlot map file
  - speed up
@@ -35,7 +37,6 @@ For Ke6487:
  - low priority
 	 - overlay of all IV curves
 	 - fix stop button effect during ramp
-	 - abort when compliance is reached
 	 - make estimated remaining time correct also for IV+CV
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
