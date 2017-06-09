@@ -26,7 +26,7 @@ For Ke6487:
 
 #TODO
  - warn and abort when compliance is reached
- - different voltage lists with easy switching
+ - voltage lists from file, if not user defined input
  - finish OpenCorrection
  - create matrix HexPlot map file
  - speed up
