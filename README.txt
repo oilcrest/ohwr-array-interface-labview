@@ -25,15 +25,13 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - finish OpenCorrection
  - warn and abort when compliance is reached
  - voltage lists from file, if not user defined input
- - finish OpenCorrection
  - create matrix HexPlot map file
  - speed up
  - 1*NPLC10 or 10*NPLC1 for measurement?
  - remove space from "Switching matrix"
- - for Joseph Tagg
-	 - fix driver locations
  - low priority
 	 - overlay of all IV curves
 	 - fix stop button effect during ramp
