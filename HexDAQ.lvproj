@@ -58,6 +58,7 @@
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
 			<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
+			<Item Name="Front_panel_refs.ctl" Type="VI" URL="../Front_panel_refs.ctl"/>
 		</Item>
 		<Item Name="HexDAQ.vi" Type="VI" URL="../HexDAQ.vi"/>
 		<Item Name="Tag-t&apos;Input_parameters.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Input_parameters.ctl&apos;.lvlib"/>
