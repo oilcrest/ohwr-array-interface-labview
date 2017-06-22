@@ -25,7 +25,8 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
- - finish OpenCorrection
+ - test open correction functionality
+ - test correct wiring with Take_Measurement.vi
  - warn and abort when compliance is reached
  - voltage lists from file, if not user defined input
  - create matrix HexPlot map file
@@ -38,6 +39,10 @@ For Ke6487:
 	 - make estimated remaining time correct also for IV+CV
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
+
+#DONE commit 22.6.2017
+ - refactored loop code
+ - added OpenCorrection
 
 #DONE commit 8.6.2017
  - fix actual voltage measurement from source
