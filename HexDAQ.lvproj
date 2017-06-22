@@ -57,11 +57,16 @@
 			<Item Name="GetArrayElement.vi" Type="VI" URL="../GetArrayElement.vi"/>
 			<Item Name="NearestInArray.vi" Type="VI" URL="../NearestInArray.vi"/>
 			<Item Name="ThreeButtonDialogWithTimeout.vi" Type="VI" URL="../ThreeButtonDialogWithTimeout.vi"/>
+			<Item Name="Elapsed_time.vi" Type="VI" URL="../Elapsed_time.vi"/>
+			<Item Name="Data_plots.vi" Type="VI" URL="../Data_plots.vi"/>
+			<Item Name="SingleChannel_Plot.vi" Type="VI" URL="../SingleChannel_Plot.vi"/>
+			<Item Name="Take_measurements.vi" Type="VI" URL="../Take_measurements.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
 			<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
 			<Item Name="Front_panel_refs.ctl" Type="VI" URL="../Front_panel_refs.ctl"/>
+			<Item Name="Live_data.ctl" Type="VI" URL="../Live_data.ctl"/>
 		</Item>
 		<Item Name="HexDAQ.vi" Type="VI" URL="../HexDAQ.vi"/>
 		<Item Name="Tag-t&apos;Input_parameters.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Input_parameters.ctl&apos;.lvlib"/>
