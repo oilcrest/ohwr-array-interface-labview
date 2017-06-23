@@ -61,6 +61,7 @@
 			<Item Name="Data_plots.vi" Type="VI" URL="../Data_plots.vi"/>
 			<Item Name="SingleChannel_Plot.vi" Type="VI" URL="../SingleChannel_Plot.vi"/>
 			<Item Name="Take_measurements.vi" Type="VI" URL="../Take_measurements.vi"/>
+			<Item Name="OneButtonDialogWithTimeout.vi" Type="VI" URL="../OneButtonDialogWithTimeout.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
 			<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>

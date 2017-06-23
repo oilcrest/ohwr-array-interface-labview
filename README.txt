@@ -27,7 +27,8 @@ For Ke6487:
 #TODO
  - test open correction functionality
  - test correct wiring with Take_Measurement.vi
- - warn and abort when compliance is reached
+ - test stop button during ramp - why does ramp voltage crash in Close?
+
  - voltage lists from file, if not user defined input
  - create matrix HexPlot map file
  - speed up
@@ -35,10 +36,13 @@ For Ke6487:
  - remove space from "Switching matrix"
  - low priority
 	 - overlay of all IV curves
-	 - fix stop button effect during ramp
 	 - make estimated remaining time correct also for IV+CV
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
+
+#DONE commit 23.6.2017
+ - warn and continue with next voltage when compliance is reached
+ - fix stop button effect during ramp
 
 #DONE commit 22.6.2017
  - refactored loop code
