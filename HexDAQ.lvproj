@@ -21,51 +21,53 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
+			<Item Name="CloseDevices.vi" Type="VI" URL="../CloseDevices.vi"/>
 			<Item Name="CloseDMM.vi" Type="VI" URL="../CloseDMM.vi"/>
 			<Item Name="ConfigDMM.vi" Type="VI" URL="../ConfigDMM.vi"/>
 			<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
 			<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
 			<Item Name="CVOpenCorrection.vi" Type="VI" URL="../CVOpenCorrection.vi"/>
+			<Item Name="Data_plots.vi" Type="VI" URL="../Data_plots.vi"/>
 			<Item Name="DefaultSettings.vi" Type="VI" URL="../DefaultSettings.vi"/>
 			<Item Name="DisplayExternals.vi" Type="VI" URL="../DisplayExternals.vi"/>
+			<Item Name="Elapsed_time.vi" Type="VI" URL="../Elapsed_time.vi"/>
 			<Item Name="EnvData.vi" Type="VI" URL="../EnvData.vi"/>
 			<Item Name="EnvSensors.vi" Type="VI" URL="../EnvSensors.vi"/>
 			<Item Name="FinalBeep.vi" Type="VI" URL="../FinalBeep.vi"/>
 			<Item Name="FormatDataFile.vi" Type="VI" URL="../FormatDataFile.vi"/>
+			<Item Name="GetArrayElement.vi" Type="VI" URL="../GetArrayElement.vi"/>
 			<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>
+			<Item Name="HandleOutput.vi" Type="VI" URL="../HandleOutput.vi"/>
 			<Item Name="HexPlot_command.vi" Type="VI" URL="../HexPlot_command.vi"/>
+			<Item Name="InitDevices.vi" Type="VI" URL="../InitDevices.vi"/>
 			<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 			<Item Name="IsInArray.vi" Type="VI" URL="../IsInArray.vi"/>
+			<Item Name="Loop.vi" Type="VI" URL="../Loop.vi"/>
 			<Item Name="MeasureDMM.vi" Type="VI" URL="../MeasureDMM.vi"/>
 			<Item Name="MeasureLCR.vi" Type="VI" URL="../MeasureLCR.vi"/>
 			<Item Name="MeasureSource.vi" Type="VI" URL="../MeasureSource.vi"/>
 			<Item Name="MultilineIntegerToArray.vi" Type="VI" URL="../MultilineIntegerToArray.vi"/>
+			<Item Name="NearestInArray.vi" Type="VI" URL="../NearestInArray.vi"/>
+			<Item Name="OneButtonDialogWithTimeout.vi" Type="VI" URL="../OneButtonDialogWithTimeout.vi"/>
 			<Item Name="Prepare_IV_CV_graph.vi" Type="VI" URL="../Prepare_IV_CV_graph.vi"/>
 			<Item Name="Prepare_outputfiles.vi" Type="VI" URL="../Prepare_outputfiles.vi"/>
 			<Item Name="Prepare_XY_graph.vi" Type="VI" URL="../Prepare_XY_graph.vi"/>
 			<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
+			<Item Name="ReadInput.vi" Type="VI" URL="../ReadInput.vi"/>
 			<Item Name="ReadOpenCorrection.vi" Type="VI" URL="../ReadOpenCorrection.vi"/>
 			<Item Name="ReadSourceVoltage.vi" Type="VI" URL="../ReadSourceVoltage.vi"/>
-			<Item Name="CloseDevices.vi" Type="VI" URL="../CloseDevices.vi"/>
-			<Item Name="HandleOutput.vi" Type="VI" URL="../HandleOutput.vi"/>
-			<Item Name="InitDevices.vi" Type="VI" URL="../InitDevices.vi"/>
-			<Item Name="Loop.vi" Type="VI" URL="../Loop.vi"/>
-			<Item Name="ReadInput.vi" Type="VI" URL="../ReadInput.vi"/>
-			<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
-			<Item Name="Write_Datafile.vi" Type="VI" URL="../Write_Datafile.vi"/>
-			<Item Name="GetArrayElement.vi" Type="VI" URL="../GetArrayElement.vi"/>
-			<Item Name="NearestInArray.vi" Type="VI" URL="../NearestInArray.vi"/>
-			<Item Name="ThreeButtonDialogWithTimeout.vi" Type="VI" URL="../ThreeButtonDialogWithTimeout.vi"/>
-			<Item Name="Elapsed_time.vi" Type="VI" URL="../Elapsed_time.vi"/>
-			<Item Name="Data_plots.vi" Type="VI" URL="../Data_plots.vi"/>
 			<Item Name="SingleChannel_Plot.vi" Type="VI" URL="../SingleChannel_Plot.vi"/>
+			<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
 			<Item Name="Take_measurements.vi" Type="VI" URL="../Take_measurements.vi"/>
-			<Item Name="OneButtonDialogWithTimeout.vi" Type="VI" URL="../OneButtonDialogWithTimeout.vi"/>
+			<Item Name="ThreeButtonDialogWithTimeout.vi" Type="VI" URL="../ThreeButtonDialogWithTimeout.vi"/>
+			<Item Name="Write_Datafile.vi" Type="VI" URL="../Write_Datafile.vi"/>
 		</Item>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
+			<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
 			<Item Name="Front_panel_refs.ctl" Type="VI" URL="../Front_panel_refs.ctl"/>
 			<Item Name="Live_data.ctl" Type="VI" URL="../Live_data.ctl"/>
 		</Item>
