@@ -25,7 +25,7 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
- - test open correction functionality
+ - implement open correction LCR frequency check
  - voltage lists from file, if not user defined input
  - create matrix HexPlot map file
  - speed up
@@ -37,9 +37,10 @@ For Ke6487:
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
 
-#DONE
+#DONE commit 26.6.2017
  - test correct wiring with Take_Measurement.vi
  - fix stop button during ramp
+ - test open correction functionality
 
 #DONE commit 23.6.2017
  - warn and continue with next voltage when compliance is reached

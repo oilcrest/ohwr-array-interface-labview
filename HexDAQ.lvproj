@@ -69,6 +69,7 @@
 			<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
 			<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
 			<Item Name="Front_panel_refs.ctl" Type="VI" URL="../Front_panel_refs.ctl"/>
+			<Item Name="LCR_data.ctl" Type="VI" URL="../LCR_data.ctl"/>
 			<Item Name="Live_data.ctl" Type="VI" URL="../Live_data.ctl"/>
 		</Item>
 		<Item Name="HexDAQ.vi" Type="VI" URL="../HexDAQ.vi"/>
