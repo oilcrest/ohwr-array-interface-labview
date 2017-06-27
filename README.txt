@@ -25,6 +25,7 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - check compliance warning
  - implement open correction LCR frequency check
  - voltage lists from file, if not user defined input
  - create matrix HexPlot map file
@@ -36,6 +37,12 @@ For Ke6487:
 	 - make estimated remaining time correct also for IV+CV
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
+
+#DONE commit 27.6.2017
+ - switch to PDF read mode programmatically
+ - new HexPlot version which has -1000000 as default nan value
+ - new geometry file for the switch matrix
+ - add default value (-1000000) for open correction with missing correction data
 
 #DONE commit 26.6.2017
  - test correct wiring with Take_Measurement.vi
