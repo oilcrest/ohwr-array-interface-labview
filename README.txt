@@ -25,6 +25,7 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - fix sampling #1 std deviation bug
  - check compliance warning
  - implement open correction LCR frequency check
  - voltage lists from file, if not user defined input
