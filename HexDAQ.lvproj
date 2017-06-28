@@ -23,6 +23,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
+			<Item Name="CheckCompliance.vi" Type="VI" URL="../CheckCompliance.vi"/>
 			<Item Name="CloseDevices.vi" Type="VI" URL="../CloseDevices.vi"/>
 			<Item Name="CloseDMM.vi" Type="VI" URL="../CloseDMM.vi"/>
 			<Item Name="ConfigDMM.vi" Type="VI" URL="../ConfigDMM.vi"/>
@@ -57,6 +58,8 @@
 			<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
 			<Item Name="ReadInput.vi" Type="VI" URL="../ReadInput.vi"/>
 			<Item Name="ReadOpenCorrection.vi" Type="VI" URL="../ReadOpenCorrection.vi"/>
+			<Item Name="ReadSourceCurrent.vi" Type="VI" URL="../ReadSourceCurrent.vi"/>
+			<Item Name="ReadSourceIsCompliance.vi" Type="VI" URL="../ReadSourceIsCompliance.vi"/>
 			<Item Name="ReadSourceVoltage.vi" Type="VI" URL="../ReadSourceVoltage.vi"/>
 			<Item Name="SingleChannel_Plot.vi" Type="VI" URL="../SingleChannel_Plot.vi"/>
 			<Item Name="Switchboard.vi" Type="VI" URL="../Switchboard.vi"/>
