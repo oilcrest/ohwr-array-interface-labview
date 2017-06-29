@@ -25,6 +25,8 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - button for negative voltages, check HexPlot performance: why -select 0 in case of negative voltages?
+ - fix compliance window
  - fix sampling #1 std deviation bug
  - check compliance warning
  - implement open correction LCR frequency check
@@ -38,6 +40,9 @@ For Ke6487:
 	 - make estimated remaining time correct also for IV+CV
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
+
+#DONE
+ - speed up by measuring total current and voltage only every X steps (set by user)
 
 #DONE commit 27.6.2017
  - switch to PDF read mode programmatically
