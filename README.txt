@@ -25,10 +25,9 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
- - button for negative voltages, check HexPlot performance: why -select 0 in case of negative voltages?
- - fix compliance window
+ - add HPK 8 inch geo file
  - fix sampling #1 std deviation bug
- - check compliance warning
+ - invert z scale when only negative values in HexPlot
  - implement open correction LCR frequency check
  - voltage lists from file, if not user defined input
  - create matrix HexPlot map file
@@ -42,7 +41,10 @@ For Ke6487:
 	 - temperature correction for IV
 
 #DONE
+ - negative voltages are integrated in a natural way. No extra button necessary.
+ - added button to disable CV corrections
  - speed up by measuring total current and voltage only every X steps (set by user)
+ - fix compliance behavior: when compliance, wait 5 seconds then check again. If still compliance, abort current voltage.
 
 #DONE commit 27.6.2017
  - switch to PDF read mode programmatically
