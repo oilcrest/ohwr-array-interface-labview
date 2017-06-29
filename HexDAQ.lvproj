@@ -43,7 +43,6 @@
 			<Item Name="HandleOutput.vi" Type="VI" URL="../HandleOutput.vi"/>
 			<Item Name="HexPlot_command.vi" Type="VI" URL="../HexPlot_command.vi"/>
 			<Item Name="InitDevices.vi" Type="VI" URL="../InitDevices.vi"/>
-			<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 			<Item Name="IsInArray.vi" Type="VI" URL="../IsInArray.vi"/>
 			<Item Name="Loop.vi" Type="VI" URL="../Loop.vi"/>
 			<Item Name="MeasureDMM.vi" Type="VI" URL="../MeasureDMM.vi"/>
@@ -72,11 +71,11 @@
 			<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
 			<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
 			<Item Name="Front_panel_refs.ctl" Type="VI" URL="../Front_panel_refs.ctl"/>
+			<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
 			<Item Name="LCR_data.ctl" Type="VI" URL="../LCR_data.ctl"/>
 			<Item Name="Live_data.ctl" Type="VI" URL="../Live_data.ctl"/>
 		</Item>
 		<Item Name="HexDAQ.vi" Type="VI" URL="../HexDAQ.vi"/>
-		<Item Name="Tag-t&apos;Input_parameters.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Input_parameters.ctl&apos;.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
@@ -199,15 +198,8 @@
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
 			<Item Name="8bit-to-binary.vi" Type="VI" URL="../SHT75_IOWarrior.llb/8bit-to-binary.vi"/>
-			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="CalculateCapacitance.vi" Type="VI" URL="../CalculateCapacitance.vi"/>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="iowkit.dll" Type="Document" URL="../iowkit.dll"/>
-			<Item Name="Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib"/>
-			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
-			<Item Name="Tag-str.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-str.lvlib"/>
-			<Item Name="Tag-t&apos;Env_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Env_data.ctl&apos;.lvlib"/>
 			<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
 			<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
 			<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
@@ -218,6 +210,14 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
+			<Item Name="Tag-t&apos;Env_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Env_data.ctl&apos;.lvlib"/>
+			<Item Name="Tag-str.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-str.lvlib"/>
+			<Item Name="Tag-t&apos;Input_parameters.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Input_parameters.ctl&apos;.lvlib"/>
+			<Item Name="Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib"/>
+			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
