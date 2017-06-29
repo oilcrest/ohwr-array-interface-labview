@@ -3,7 +3,7 @@
 #
 # HPK 6 inch 136 pads
 #
-#padnumber	position	yposition	size	type	rotation
+#padnumber	xposition	yposition	size	type	rotation
 
 1	-0.5	7	0.54	3	-0.00001
 2	+0.5	7	0.54	3	0
