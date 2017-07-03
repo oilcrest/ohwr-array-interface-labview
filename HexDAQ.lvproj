@@ -62,6 +62,7 @@
 			<Item Name="ReadSourceIsCompliance.vi" Type="VI" URL="../ReadSourceIsCompliance.vi"/>
 			<Item Name="ReadSourceVoltage.vi" Type="VI" URL="../ReadSourceVoltage.vi"/>
 			<Item Name="SingleChannel_Plot.vi" Type="VI" URL="../SingleChannel_Plot.vi"/>
+			<Item Name="Sort_Array_by_1st_col.vi" Type="VI" URL="../Sort_Array_by_1st_col.vi"/>
 			<Item Name="SwitchBoard_ChannelMapping.vi" Type="VI" URL="../SwitchBoard_ChannelMapping.vi"/>
 			<Item Name="Take_measurements.vi" Type="VI" URL="../Take_measurements.vi"/>
 			<Item Name="ThreeButtonDialogWithTimeout.vi" Type="VI" URL="../ThreeButtonDialogWithTimeout.vi"/>
