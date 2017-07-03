@@ -25,12 +25,11 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
- - Contact test can be forward biased at 1V. Much clearer sign of contact.
- - Polarity switch for contact test
- - Plot total current in uA. Could be measured the first 10 cells (too see everything is settled) and then e.g. every 10th. 
+ - clear out inconsistency in HPK6in 135 from pcb, sch as in cernbox and the already mapping created by me
  - add maps read from files
  - add choice of several correction files (Different Sensors require different correction files and voltages)
- - fix sampling #1 std deviation bug
+ - Contact test can be forward biased at 1V. Much clearer sign of contact.
+ - Polarity switch for contact test
  - invert z scale when only negative values in HexPlot
  - implement open correction LCR frequency check
  - voltage lists from file, if not user defined input
@@ -45,11 +44,15 @@ For Ke6487:
 	 - temperature correction for IV
 
 #DONE
+ - fix sampling #1 std deviation bug
+ - Plot total current in uA
  - add HPK 8 inch 256 channels geo file
+
+#DONE commit 29.6.2017
  - add HPK 8 inch geo file
  - negative voltages are integrated in a natural way. No extra button necessary.
  - added button to disable CV corrections
- - speed up by measuring total current and voltage only every X steps (set by user)
+ - speed up by measuring total current and voltage only every X steps (set by user) and the first 10 steps to see if settled down
  - fix compliance behavior: when compliance, wait 5 seconds then check again. If still compliance, abort current voltage.
 
 #DONE commit 27.6.2017
@@ -109,7 +112,7 @@ For Ke6487:
  - reinitialize single channel plot
  - added possibility for repetitive measurements
 
-#DONE recently
+#DONE before
  - fixed switch matrix buffer readout that caused 0 temperatuture values while scanning
  - fixed single channel plot saving
  - fixed absurdely high values of source meter current

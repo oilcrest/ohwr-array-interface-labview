@@ -49,6 +49,7 @@
 			<Item Name="MeasureLCR.vi" Type="VI" URL="../MeasureLCR.vi"/>
 			<Item Name="MeasureSource.vi" Type="VI" URL="../MeasureSource.vi"/>
 			<Item Name="MultilineIntegerToArray.vi" Type="VI" URL="../MultilineIntegerToArray.vi"/>
+			<Item Name="MyStdDevVariance.vi" Type="VI" URL="../MyStdDevVariance.vi"/>
 			<Item Name="NearestInArray.vi" Type="VI" URL="../NearestInArray.vi"/>
 			<Item Name="OneButtonDialogWithTimeout.vi" Type="VI" URL="../OneButtonDialogWithTimeout.vi"/>
 			<Item Name="Prepare_IV_CV_graph.vi" Type="VI" URL="../Prepare_IV_CV_graph.vi"/>
