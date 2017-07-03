@@ -1,6 +1,5 @@
 # Probe card IFX 8in
 # mapping to switch card numbers
-
 224
 255
 318

@@ -25,8 +25,6 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
- - clear out inconsistency in HPK6in 135 from pcb, sch as in cernbox and the already mapping created by me
- - add maps read from files
  - add choice of several correction files (Different Sensors require different correction files and voltages)
  - Contact test can be forward biased at 1V. Much clearer sign of contact.
  - Polarity switch for contact test
@@ -44,6 +42,7 @@ For Ke6487:
 	 - temperature correction for IV
 
 #DONE
+ - add maps read from files
  - fix sampling #1 std deviation bug
  - Plot total current in uA
  - add HPK 8 inch 256 channels geo file
