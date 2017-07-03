@@ -25,6 +25,9 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - add 2nd column in map files to make them consistent with HexPlot maps
+ - insert plot on matrix string: HexPlot.exe -df NONE -i "C:\Users\Administrator\cernbox\HGCAL test results\Data\HPK_6in_135_1104_contact_test\HPK_6in_135_1104_contact_test_IV.txt" -g  "C:\Users\Administrator\Desktop\HGCAL_sensor_tests\geo\switch_matrix.txt" -o  "C:\Users\Administrator\cernbox\HGCAL test results\Data\HPK_6in_135_1104_contact_test\HPK_6in_135_1104_contact_test_IV_on_matrix.pdf" -IV  -p HEX -ys 1  -select -5  -if SELECTOR:PADNUM:VAL:no:no:no:no:no:no:no:no:no:no:no:no:no:no  -pn 0 -m "C:\Users\Administrator\Desktop\HGCAL_sensor_tests\maps\Probe_card_HPK_6in_with_numberone.txt"
+ - add sufficient ":no" to match number of columns
  - add choice of several correction files (Different Sensors require different correction files and voltages)
  - Contact test can be forward biased at 1V. Much clearer sign of contact.
  - Polarity switch for contact test
