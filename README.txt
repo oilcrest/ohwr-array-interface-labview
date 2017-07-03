@@ -25,7 +25,11 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
- - add HPK 8 inch geo file
+ - Contact test can be forward biased at 1V. Much clearer sign of contact.
+ - Polarity switch for contact test
+ - Plot total current in uA. Could be measured the first 10 cells (too see everything is settled) and then e.g. every 10th. 
+ - add maps read from files
+ - add choice of several correction files (Different Sensors require different correction files and voltages)
  - fix sampling #1 std deviation bug
  - invert z scale when only negative values in HexPlot
  - implement open correction LCR frequency check
@@ -41,6 +45,8 @@ For Ke6487:
 	 - temperature correction for IV
 
 #DONE
+ - add HPK 8 inch 256 channels geo file
+ - add HPK 8 inch geo file
  - negative voltages are integrated in a natural way. No extra button necessary.
  - added button to disable CV corrections
  - speed up by measuring total current and voltage only every X steps (set by user)
