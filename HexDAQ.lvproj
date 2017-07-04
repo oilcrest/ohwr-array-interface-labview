@@ -62,6 +62,7 @@
 			<Item Name="ReadSourceCurrent.vi" Type="VI" URL="../ReadSourceCurrent.vi"/>
 			<Item Name="ReadSourceIsCompliance.vi" Type="VI" URL="../ReadSourceIsCompliance.vi"/>
 			<Item Name="ReadSourceVoltage.vi" Type="VI" URL="../ReadSourceVoltage.vi"/>
+			<Item Name="SavePlots.vi" Type="VI" URL="../SavePlots.vi"/>
 			<Item Name="SingleChannel_Plot.vi" Type="VI" URL="../SingleChannel_Plot.vi"/>
 			<Item Name="Sort_Array_by_1st_col.vi" Type="VI" URL="../Sort_Array_by_1st_col.vi"/>
 			<Item Name="SwitchBoard_ChannelMapping.vi" Type="VI" URL="../SwitchBoard_ChannelMapping.vi"/>
@@ -91,7 +92,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
-				<Item Name="8bit-to-binary.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/8bit-to-binary.vi"/>
+				<Item Name="8bit-to-binary.vi" Type="VI" URL="/&lt;instrlib&gt;/sht7xx/SHT75_IOWarrior.llb/8bit-to-binary.vi"/>
 				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
 				<Item Name="Error Query Global.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Error Query Global.vi"/>
 				<Item Name="FT_Close_Device.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/FT_Close_Device.vi"/>
@@ -109,10 +110,10 @@
 				<Item Name="FT_Write_String_Data.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/FT_Write_String_Data.vi"/>
 				<Item Name="GPIB Receive Message.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/GPIB Receive Message.vi"/>
 				<Item Name="GPIB Send Message.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/GPIB Send Message.vi"/>
-				<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
-				<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
-				<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
-				<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
+				<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="/&lt;instrlib&gt;/sht7xx/SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
+				<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="/&lt;instrlib&gt;/sht7xx/SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
+				<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="/&lt;instrlib&gt;/sht7xx/SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
+				<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="/&lt;instrlib&gt;/sht7xx/SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
 				<Item Name="iowkit.dll" Type="Document" URL="/&lt;instrlib&gt;/iowkit.dll"/>
 				<Item Name="Keith 2001 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keith 2001 Error Query.vi"/>
 				<Item Name="Keith 2001 Reset / Preset.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keith 2001 Reset / Preset.vi"/>

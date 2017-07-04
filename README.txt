@@ -23,6 +23,7 @@ For the Sensirion SHT1x/7x sensors:
 	In case drivers in instr.lib.zip are not enough, install software Viewer Software Humidity Evaluation Kit EK-H5
 
 #TODO
+ - verify and activate SavePlots.vi in "Close" state
  - remove empty columns for IV, align columns with header
  - add choice of several correction files (Different Sensors require different correction files and voltages)
  - implement open correction LCR frequency check
