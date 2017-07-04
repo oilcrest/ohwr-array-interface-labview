@@ -25,6 +25,7 @@ For Ke6487:
 	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
 
 #TODO
+ - remove empty columns for IV, align columns with header
  - add choice of several correction files (Different Sensors require different correction files and voltages)
  - Contact test can be forward biased at 1V. Much clearer sign of contact.
  - Polarity switch for contact test
@@ -41,11 +42,10 @@ For Ke6487:
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
 
-#DONE
+#DONE commit 3.7.2017
  - add sufficient ":no" to match number of columns
  - insert plot on matrix command into output file
  - add 2nd column in map files to make them consistent with HexPlot maps
-
  - add maps read from files
  - fix sampling #1 std deviation bug
  - Plot total current in uA

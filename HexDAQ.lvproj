@@ -23,6 +23,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
+			<Item Name="CalculateCapacitance.vi" Type="VI" URL="../CalculateCapacitance.vi"/>
 			<Item Name="CheckCompliance.vi" Type="VI" URL="../CheckCompliance.vi"/>
 			<Item Name="CloseDevices.vi" Type="VI" URL="../CloseDevices.vi"/>
 			<Item Name="CloseDMM.vi" Type="VI" URL="../CloseDMM.vi"/>
@@ -64,6 +65,15 @@
 			<Item Name="SingleChannel_Plot.vi" Type="VI" URL="../SingleChannel_Plot.vi"/>
 			<Item Name="Sort_Array_by_1st_col.vi" Type="VI" URL="../Sort_Array_by_1st_col.vi"/>
 			<Item Name="SwitchBoard_ChannelMapping.vi" Type="VI" URL="../SwitchBoard_ChannelMapping.vi"/>
+			<Item Name="SwitchBoard_close.vi" Type="VI" URL="../SwitchBoard_close.vi"/>
+			<Item Name="SwitchBoard_error.vi" Type="VI" URL="../SwitchBoard_error.vi"/>
+			<Item Name="SwitchBoard_init.vi" Type="VI" URL="../SwitchBoard_init.vi"/>
+			<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
+			<Item Name="SwitchBoard_query.vi" Type="VI" URL="../SwitchBoard_query.vi"/>
+			<Item Name="SwitchBoard_ReadEnvSensors.vi" Type="VI" URL="../SwitchBoard_ReadEnvSensors.vi"/>
+			<Item Name="SwitchBoard_switch.vi" Type="VI" URL="../SwitchBoard_switch.vi"/>
+			<Item Name="SwitchBoard_ToggleDisplay.vi" Type="VI" URL="../SwitchBoard_ToggleDisplay.vi"/>
+			<Item Name="SwitchBoard_write.vi" Type="VI" URL="../SwitchBoard_write.vi"/>
 			<Item Name="Take_measurements.vi" Type="VI" URL="../Take_measurements.vi"/>
 			<Item Name="ThreeButtonDialogWithTimeout.vi" Type="VI" URL="../ThreeButtonDialogWithTimeout.vi"/>
 			<Item Name="Write_Datafile.vi" Type="VI" URL="../Write_Datafile.vi"/>
@@ -81,6 +91,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
+				<Item Name="8bit-to-binary.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/8bit-to-binary.vi"/>
 				<Item Name="Agilent E4980.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent E4980/Agilent E4980.lvlib"/>
 				<Item Name="Error Query Global.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Error Query Global.vi"/>
 				<Item Name="FT_Close_Device.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/FT_Close_Device.vi"/>
@@ -98,6 +109,11 @@
 				<Item Name="FT_Write_String_Data.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/FT_Write_String_Data.vi"/>
 				<Item Name="GPIB Receive Message.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/GPIB Receive Message.vi"/>
 				<Item Name="GPIB Send Message.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/GPIB Send Message.vi"/>
+				<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
+				<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
+				<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
+				<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="/&lt;instrlib&gt;/SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
+				<Item Name="iowkit.dll" Type="Document" URL="/&lt;instrlib&gt;/iowkit.dll"/>
 				<Item Name="Keith 2001 Error Query.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keith 2001 Error Query.vi"/>
 				<Item Name="Keith 2001 Reset / Preset.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keith 2001 Reset / Preset.vi"/>
 				<Item Name="Keithley 24XX.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 24XX/Keithley 24XX.lvlib"/>
@@ -120,15 +136,6 @@
 				<Item Name="Keithley6487_reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley6487/Keithley6487_reset.vi"/>
 				<Item Name="Keithley6487_setrange.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley6487/Keithley6487_setrange.vi"/>
 				<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Read SCPI Error Queue (GPIB).vi"/>
-				<Item Name="SwitchBoard_close.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_close.vi"/>
-				<Item Name="SwitchBoard_error.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_error.vi"/>
-				<Item Name="SwitchBoard_init.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_init.vi"/>
-				<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_IVCV.vi"/>
-				<Item Name="SwitchBoard_query.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_query.vi"/>
-				<Item Name="SwitchBoard_ReadEnvSensors.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_ReadEnvSensors.vi"/>
-				<Item Name="SwitchBoard_switch.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_switch.vi"/>
-				<Item Name="SwitchBoard_ToggleDisplay.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_ToggleDisplay.vi"/>
-				<Item Name="SwitchBoard_write.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/SwitchBoard_write.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
@@ -199,16 +206,6 @@
 				<Item Name="FormatTime String.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/FormatTime String.vi"/>
 				<Item Name="subElapsedTime.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/ElapsedTimeBlock.llb/subElapsedTime.vi"/>
 			</Item>
-			<Item Name="8bit-to-binary.vi" Type="VI" URL="../SHT75_IOWarrior.llb/8bit-to-binary.vi"/>
-			<Item Name="CalculateCapacitance.vi" Type="VI" URL="../CalculateCapacitance.vi"/>
-			<Item Name="iowkit.dll" Type="Document" URL="../iowkit.dll"/>
-			<Item Name="IOWarrior_SHT75_Init.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_Init.vi"/>
-			<Item Name="IOWarrior_SHT75_GetTempHumid.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_GetTempHumid.vi"/>
-			<Item Name="IOWarrior_SHT75_AskMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_AskMeasurement.vi"/>
-			<Item Name="IOWarrior_SHT75_ReadMeasurement.vi" Type="VI" URL="../SHT75_IOWarrior.llb/IOWarrior_SHT75_ReadMeasurement.vi"/>
-			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -220,6 +217,9 @@
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
