@@ -30,7 +30,6 @@ For the Sensirion SHT1x/7x sensors:
  - Contact test can be forward biased at 1V. Much clearer sign of contact.
  - invert z scale when only negative values in HexPlot
  - voltage lists from file, if not user defined input
- - create matrix HexPlot map file
  - 1*NPLC10 or 10*NPLC1 for measurement?
  - low priority
 	 - overlay of all IV curves
