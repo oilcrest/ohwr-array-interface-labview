@@ -9,7 +9,7 @@
 # The following lists some advice and features to implement, but is not intended to document the program.
 
 #INSTRUCTIONS
- - Drivers: The instrument drivers required for this program to run are put in the folder instr.lib. 
+ - Drivers: The instrument drivers required for this program to run are put in the archive instr.lib.zip
             Place the content of instr.lib into C:\Program Files (x86)\National Instruments\LabVIEW 2016\instr.lib to make LabVIEW aware of them.
  - Make sure you have VI properties> Execution> "Execution system: user interface" enabled
 
@@ -20,22 +20,18 @@ For the "Plot after execution" functionality:
 	HexPlot.exe uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed
 	Acrobat Reader(TM) for embedded PDF view
 For the Sensirion SHT1x/7x sensors:
-	Install software     Viewer Software Humidity Evaluation Kit EK-H5
-For Ke6487:
-	Download and install IVI driver: http://www.tek.com/specialty-instruments/6485-software/models-6485-6487-and-6514-ivi-visa-based-driver-visual-basic-v-0
+	In case drivers in instr.lib.zip are not enough, install software Viewer Software Humidity Evaluation Kit EK-H5
 
 #TODO
  - remove empty columns for IV, align columns with header
  - add choice of several correction files (Different Sensors require different correction files and voltages)
- - Contact test can be forward biased at 1V. Much clearer sign of contact.
- - Polarity switch for contact test
- - invert z scale when only negative values in HexPlot
  - implement open correction LCR frequency check
+ - Polarity switch for contact test
+ - Contact test can be forward biased at 1V. Much clearer sign of contact.
+ - invert z scale when only negative values in HexPlot
  - voltage lists from file, if not user defined input
  - create matrix HexPlot map file
- - speed up
  - 1*NPLC10 or 10*NPLC1 for measurement?
- - remove space from "Switching matrix"
  - low priority
 	 - overlay of all IV curves
 	 - make estimated remaining time correct also for IV+CV
