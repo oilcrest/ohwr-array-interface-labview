@@ -38,6 +38,7 @@
 			<Item Name="EnvData.vi" Type="VI" URL="../EnvData.vi"/>
 			<Item Name="EnvSensors.vi" Type="VI" URL="../EnvSensors.vi"/>
 			<Item Name="FinalBeep.vi" Type="VI" URL="../FinalBeep.vi"/>
+			<Item Name="Format_plots.vi" Type="VI" URL="../Format_plots.vi"/>
 			<Item Name="FormatDataFile.vi" Type="VI" URL="../FormatDataFile.vi"/>
 			<Item Name="GetArrayElement.vi" Type="VI" URL="../GetArrayElement.vi"/>
 			<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>

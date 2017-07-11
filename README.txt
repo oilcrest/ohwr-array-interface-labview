@@ -24,7 +24,6 @@ For the Sensirion SHT1x/7x sensors:
 
 #TODO
  - verify HPK256 6 inch map with multimeter
- - verify and activate SavePlots.vi in "Close" state
  - remove empty columns for IV, align columns with header
  - implement open correction LCR frequency check
  - Polarity switch for contact test
@@ -38,7 +37,10 @@ For the Sensirion SHT1x/7x sensors:
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
 
-#DONE 11.7.2017
+#DONE commit 11.7.2017
+ - add guard ring to map files - between sensor and test capacitances => correct recorded data!
+ - simplify init plots state
+ - verify and activate SavePlots.vi in "Close" state
  - add possibility for sensor specific correction files
  - HexDAQ expected a file called /maps/Probe_card_HPK_6in_265chan.txt but there was only a file called ...265ch.txt
  - updated HexPlot.exe to fix numbering issue
