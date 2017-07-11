@@ -23,6 +23,11 @@ For the Sensirion SHT1x/7x sensors:
 	In case drivers in instr.lib.zip are not enough, install software Viewer Software Humidity Evaluation Kit EK-H5
 
 #TODO
+ - For HexDAQ to run with this card, I needed to change the name of the map file. HexDAQ expected a file called /maps/Probe_card_HPK_6in_265chan.txt but there was only a file called ...265ch.txt. Note that it in principle should be 256 instead of 265. Note that we also could use the true channel number like we did for the 135-cell sensor. This would be 239 for this probe card (ignoring the guard ring in the counting).
+ - he guard ring is not added yet to the list of channels that are scanned. For the new probe card, the guard ring is on channel 63 of the switch card as can be seen in the schematics.
+ - At the moment, the HexPlot uses the first HV capacitor value as the guard ring value. The remaining capacitors are not plotted yet.
+ - beim Plotten 6" 239-Zell-Sensoren in Hexplot gibt es einen Offset von einer Zelle zwischen der Farbe und der angezeigten Zahl. Kannst du dir das anschauen? Vielleicht ist das durch die Nummerierung, die nun von 0 anfaengt, reingekommen?
+ - Zudem sieht es so aus, als ob wir einen fehlerhafte Map fuer die Probecard fuer die erste Haelfte des Sensors haben. Ich kann morgen ein Multimeter mitbringen, dann koennen wir eine Karte mal durchmessen und schauen, ob die Pinbelegung so ist wie sie in der Schematics angegeben ist.
  - verify and activate SavePlots.vi in "Close" state
  - remove empty columns for IV, align columns with header
  - add choice of several correction files (Different Sensors require different correction files and voltages)
