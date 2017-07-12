@@ -23,19 +23,24 @@ For the Sensirion SHT1x/7x sensors:
 	In case drivers in instr.lib.zip are not enough, install software Viewer Software Humidity Evaluation Kit EK-H5
 
 #TODO
- - verify HPK256 6 inch map with multimeter
- - remove empty columns for IV, align columns with header
- - implement open correction LCR frequency check
- - Polarity switch for contact test
- - Contact test can be forward biased at 1V. Much clearer sign of contact.
- - invert z scale when only negative values in HexPlot
  - voltage lists from file, if not user defined input
- - 1*NPLC10 or 10*NPLC1 for measurement?
+ - verify HPK256 6 inch map with multimeter
+ - implement open correction LCR frequency check
+ - invert z scale when only negative values in HexPlot
+
  - low priority
+	 - 1*NPLC10 or 10*NPLC1 for measurement?
+ 	 - remove empty columns for IV, align columns with header
 	 - overlay of all IV curves
 	 - make estimated remaining time correct also for IV+CV
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
+
+#DONE commit 12.7.2017
+ - Polarity switch for contact test
+ - fix open correction path
+ - contact test now forward biased at 1V
+ - fix bug open correction voltage selection dialogue
 
 #DONE commit 11.7.2017
  - add guard ring to map files - between sensor and test capacitances => correct recorded data!
