@@ -36,6 +36,9 @@ For the Sensirion SHT1x/7x sensors:
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
 
+#DONE
+- Fix last cell color
+
 #DONE commit 12.7.2017
  - Polarity switch for contact test
  - fix open correction path
