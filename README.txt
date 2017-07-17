@@ -23,7 +23,6 @@ For the Sensirion SHT1x/7x sensors:
 	In case drivers in instr.lib.zip are not enough, install software Viewer Software Humidity Evaluation Kit EK-H5
 
 #TODO
- - voltage lists from file, if not user defined input
  - verify HPK256 6 inch map with multimeter
  - implement open correction LCR frequency check
  - invert z scale when only negative values in HexPlot
@@ -36,8 +35,9 @@ For the Sensirion SHT1x/7x sensors:
 	 - automatic remeasurement of a cell's value when unexpectedly different from other cells
 	 - temperature correction for IV
 
-#DONE
-- Fix last cell color
+#DONE commit 17.7.2017
+ - voltage lists from file, if not user defined input
+ - Fix last cell color
 
 #DONE commit 12.7.2017
  - Polarity switch for contact test
