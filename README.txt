@@ -23,6 +23,7 @@ For the Sensirion SHT1x/7x sensors:
 	In case drivers in instr.lib.zip are not enough, install software Viewer Software Humidity Evaluation Kit EK-H5
 
 #TODO
+ - update switchboard drivers from zip file in instr.lib
  - verify HPK256 6 inch map with multimeter
  - implement open correction LCR frequency check
  - invert z scale when only negative values in HexPlot

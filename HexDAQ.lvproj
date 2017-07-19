@@ -50,15 +50,9 @@
 			<Item Name="sub_prepare_outputfiles.vi" Type="VI" URL="../sub_prepare_outputfiles.vi"/>
 			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
 			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
-			<Item Name="switchboard_close.vi" Type="VI" URL="../switchboard_close.vi"/>
-			<Item Name="switchboard_error.vi" Type="VI" URL="../switchboard_error.vi"/>
-			<Item Name="switchboard_init.vi" Type="VI" URL="../switchboard_init.vi"/>
 			<Item Name="switchboard_IVCV.vi" Type="VI" URL="../switchboard_IVCV.vi"/>
-			<Item Name="switchboard_query.vi" Type="VI" URL="../switchboard_query.vi"/>
 			<Item Name="switchboard_read_env.vi" Type="VI" URL="../switchboard_read_env.vi"/>
 			<Item Name="switchboard_switch.vi" Type="VI" URL="../switchboard_switch.vi"/>
-			<Item Name="switchboard_toggle_display.vi" Type="VI" URL="../switchboard_toggle_display.vi"/>
-			<Item Name="switchboard_write.vi" Type="VI" URL="../switchboard_write.vi"/>
 			<Item Name="top_close_devices.vi" Type="VI" URL="../top_close_devices.vi"/>
 			<Item Name="top_display_externals.vi" Type="VI" URL="../top_display_externals.vi"/>
 			<Item Name="top_format_plots.vi" Type="VI" URL="../top_format_plots.vi"/>
@@ -137,6 +131,12 @@
 				<Item Name="Keithley6487_reset.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley6487/Keithley6487_reset.vi"/>
 				<Item Name="Keithley6487_setrange.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley6487/Keithley6487_setrange.vi"/>
 				<Item Name="Read SCPI Error Queue (GPIB).vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Read SCPI Error Queue (GPIB).vi"/>
+				<Item Name="switchboard_close.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/switchboard_close.vi"/>
+				<Item Name="switchboard_error.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/switchboard_error.vi"/>
+				<Item Name="switchboard_init.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/switchboard_init.vi"/>
+				<Item Name="switchboard_query.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/switchboard_query.vi"/>
+				<Item Name="switchboard_toggle_display.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/switchboard_toggle_display.vi"/>
+				<Item Name="switchboard_write.vi" Type="VI" URL="/&lt;instrlib&gt;/HGCAL_SwitchBoard/switchboard_write.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
