@@ -67,6 +67,7 @@
 			<Item Name="util_array_to_string.vi" Type="VI" URL="../util_array_to_string.vi"/>
 			<Item Name="util_dialog_timeout_one_button.vi" Type="VI" URL="../util_dialog_timeout_one_button.vi"/>
 			<Item Name="util_dialog_timeout_three_button.vi" Type="VI" URL="../util_dialog_timeout_three_button.vi"/>
+			<Item Name="util_equal_column_width.vi" Type="VI" URL="../util_equal_column_width.vi"/>
 			<Item Name="util_is_in_array.vi" Type="VI" URL="../util_is_in_array.vi"/>
 			<Item Name="util_multiline_int_to_array.vi" Type="VI" URL="../util_multiline_int_to_array.vi"/>
 			<Item Name="util_nearest_in_array.vi" Type="VI" URL="../util_nearest_in_array.vi"/>
