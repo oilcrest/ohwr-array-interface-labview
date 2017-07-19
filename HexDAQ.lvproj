@@ -20,74 +20,73 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="SubVIs" Type="Folder">
+		<Item Name="subVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="ArrayToString.vi" Type="VI" URL="../ArrayToString.vi"/>
-			<Item Name="CalculateCapacitance.vi" Type="VI" URL="../CalculateCapacitance.vi"/>
-			<Item Name="CheckCompliance.vi" Type="VI" URL="../CheckCompliance.vi"/>
-			<Item Name="CloseDevices.vi" Type="VI" URL="../CloseDevices.vi"/>
-			<Item Name="CloseDMM.vi" Type="VI" URL="../CloseDMM.vi"/>
-			<Item Name="ConfigDMM.vi" Type="VI" URL="../ConfigDMM.vi"/>
-			<Item Name="ConfigLCR.vi" Type="VI" URL="../ConfigLCR.vi"/>
-			<Item Name="ConfigSource.vi" Type="VI" URL="../ConfigSource.vi"/>
-			<Item Name="CVOpenCorrection.vi" Type="VI" URL="../CVOpenCorrection.vi"/>
-			<Item Name="Data_plots.vi" Type="VI" URL="../Data_plots.vi"/>
-			<Item Name="DefaultSettings.vi" Type="VI" URL="../DefaultSettings.vi"/>
-			<Item Name="DisplayExternals.vi" Type="VI" URL="../DisplayExternals.vi"/>
-			<Item Name="Elapsed_time.vi" Type="VI" URL="../Elapsed_time.vi"/>
-			<Item Name="EnvData.vi" Type="VI" URL="../EnvData.vi"/>
-			<Item Name="EnvSensors.vi" Type="VI" URL="../EnvSensors.vi"/>
-			<Item Name="FinalBeep.vi" Type="VI" URL="../FinalBeep.vi"/>
-			<Item Name="Format_plots.vi" Type="VI" URL="../Format_plots.vi"/>
-			<Item Name="FormatDataFile.vi" Type="VI" URL="../FormatDataFile.vi"/>
-			<Item Name="GetArrayElement.vi" Type="VI" URL="../GetArrayElement.vi"/>
-			<Item Name="GetGPIBAddress.vi" Type="VI" URL="../GetGPIBAddress.vi"/>
-			<Item Name="HandleOutput.vi" Type="VI" URL="../HandleOutput.vi"/>
-			<Item Name="HexPlot_command.vi" Type="VI" URL="../HexPlot_command.vi"/>
-			<Item Name="InitDevices.vi" Type="VI" URL="../InitDevices.vi"/>
-			<Item Name="IsInArray.vi" Type="VI" URL="../IsInArray.vi"/>
-			<Item Name="Loop.vi" Type="VI" URL="../Loop.vi"/>
-			<Item Name="MeasureDMM.vi" Type="VI" URL="../MeasureDMM.vi"/>
-			<Item Name="MeasureLCR.vi" Type="VI" URL="../MeasureLCR.vi"/>
-			<Item Name="MeasureSource.vi" Type="VI" URL="../MeasureSource.vi"/>
-			<Item Name="MultilineIntegerToArray.vi" Type="VI" URL="../MultilineIntegerToArray.vi"/>
-			<Item Name="MyStdDevVariance.vi" Type="VI" URL="../MyStdDevVariance.vi"/>
-			<Item Name="NearestInArray.vi" Type="VI" URL="../NearestInArray.vi"/>
-			<Item Name="OneButtonDialogWithTimeout.vi" Type="VI" URL="../OneButtonDialogWithTimeout.vi"/>
-			<Item Name="Prepare_IV_CV_graph.vi" Type="VI" URL="../Prepare_IV_CV_graph.vi"/>
-			<Item Name="Prepare_outputfiles.vi" Type="VI" URL="../Prepare_outputfiles.vi"/>
-			<Item Name="Prepare_XY_graph.vi" Type="VI" URL="../Prepare_XY_graph.vi"/>
-			<Item Name="RampVoltage.vi" Type="VI" URL="../RampVoltage.vi"/>
-			<Item Name="ReadInput.vi" Type="VI" URL="../ReadInput.vi"/>
-			<Item Name="ReadOpenCorrection.vi" Type="VI" URL="../ReadOpenCorrection.vi"/>
-			<Item Name="ReadSourceCurrent.vi" Type="VI" URL="../ReadSourceCurrent.vi"/>
-			<Item Name="ReadSourceIsCompliance.vi" Type="VI" URL="../ReadSourceIsCompliance.vi"/>
-			<Item Name="ReadSourceVoltage.vi" Type="VI" URL="../ReadSourceVoltage.vi"/>
-			<Item Name="SavePlots.vi" Type="VI" URL="../SavePlots.vi"/>
-			<Item Name="SingleChannel_Plot.vi" Type="VI" URL="../SingleChannel_Plot.vi"/>
-			<Item Name="Sort_Array_by_1st_col.vi" Type="VI" URL="../Sort_Array_by_1st_col.vi"/>
-			<Item Name="SwitchBoard_ChannelMapping.vi" Type="VI" URL="../SwitchBoard_ChannelMapping.vi"/>
-			<Item Name="SwitchBoard_close.vi" Type="VI" URL="../SwitchBoard_close.vi"/>
-			<Item Name="SwitchBoard_error.vi" Type="VI" URL="../SwitchBoard_error.vi"/>
-			<Item Name="SwitchBoard_init.vi" Type="VI" URL="../SwitchBoard_init.vi"/>
-			<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
-			<Item Name="SwitchBoard_query.vi" Type="VI" URL="../SwitchBoard_query.vi"/>
-			<Item Name="SwitchBoard_ReadEnvSensors.vi" Type="VI" URL="../SwitchBoard_ReadEnvSensors.vi"/>
-			<Item Name="SwitchBoard_switch.vi" Type="VI" URL="../SwitchBoard_switch.vi"/>
-			<Item Name="SwitchBoard_ToggleDisplay.vi" Type="VI" URL="../SwitchBoard_ToggleDisplay.vi"/>
-			<Item Name="SwitchBoard_write.vi" Type="VI" URL="../SwitchBoard_write.vi"/>
-			<Item Name="Take_measurements.vi" Type="VI" URL="../Take_measurements.vi"/>
-			<Item Name="ThreeButtonDialogWithTimeout.vi" Type="VI" URL="../ThreeButtonDialogWithTimeout.vi"/>
-			<Item Name="Write_Datafile.vi" Type="VI" URL="../Write_Datafile.vi"/>
+			<Item Name="CV_calc_capacitance.vi" Type="VI" URL="../CV_calc_capacitance.vi"/>
+			<Item Name="CV_config_LCR.vi" Type="VI" URL="../CV_config_LCR.vi"/>
+			<Item Name="CV_measure_LCR.vi" Type="VI" URL="../CV_measure_LCR.vi"/>
+			<Item Name="CV_open_correction.vi" Type="VI" URL="../CV_open_correction.vi"/>
+			<Item Name="CV_read_open_correction.vi" Type="VI" URL="../CV_read_open_correction.vi"/>
+			<Item Name="env_read_data.vi" Type="VI" URL="../env_read_data.vi"/>
+			<Item Name="IV_close_DMM.vi" Type="VI" URL="../IV_close_DMM.vi"/>
+			<Item Name="IV_config_DMM.vi" Type="VI" URL="../IV_config_DMM.vi"/>
+			<Item Name="IV_measure_DMM.vi" Type="VI" URL="../IV_measure_DMM.vi"/>
+			<Item Name="source_check_compliance.vi" Type="VI" URL="../source_check_compliance.vi"/>
+			<Item Name="source_check_compliance_from_device.vi" Type="VI" URL="../source_check_compliance_from_device.vi"/>
+			<Item Name="source_config.vi" Type="VI" URL="../source_config.vi"/>
+			<Item Name="source_final_beep.vi" Type="VI" URL="../source_final_beep.vi"/>
+			<Item Name="source_measure.vi" Type="VI" URL="../source_measure.vi"/>
+			<Item Name="source_ramp_voltage.vi" Type="VI" URL="../source_ramp_voltage.vi"/>
+			<Item Name="source_read_current.vi" Type="VI" URL="../source_read_current.vi"/>
+			<Item Name="source_read_voltage.vi" Type="VI" URL="../source_read_voltage.vi"/>
+			<Item Name="sub_elapsed_time.vi" Type="VI" URL="../sub_elapsed_time.vi"/>
+			<Item Name="sub_format_datafile.vi" Type="VI" URL="../sub_format_datafile.vi"/>
+			<Item Name="sub_get_array_element.vi" Type="VI" URL="../sub_get_array_element.vi"/>
+			<Item Name="sub_get_GPIB_address.vi" Type="VI" URL="../sub_get_GPIB_address.vi"/>
+			<Item Name="sub_plot_all_channels.vi" Type="VI" URL="../sub_plot_all_channels.vi"/>
+			<Item Name="sub_plot_single_channel.vi" Type="VI" URL="../sub_plot_single_channel.vi"/>
+			<Item Name="sub_prepare_HexPlot_command.vi" Type="VI" URL="../sub_prepare_HexPlot_command.vi"/>
+			<Item Name="sub_prepare_IV_CV_graph.vi" Type="VI" URL="../sub_prepare_IV_CV_graph.vi"/>
+			<Item Name="sub_prepare_outputfiles.vi" Type="VI" URL="../sub_prepare_outputfiles.vi"/>
+			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
+			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
+			<Item Name="switchboard_close.vi" Type="VI" URL="../switchboard_close.vi"/>
+			<Item Name="switchboard_error.vi" Type="VI" URL="../switchboard_error.vi"/>
+			<Item Name="switchboard_init.vi" Type="VI" URL="../switchboard_init.vi"/>
+			<Item Name="switchboard_IVCV.vi" Type="VI" URL="../switchboard_IVCV.vi"/>
+			<Item Name="switchboard_query.vi" Type="VI" URL="../switchboard_query.vi"/>
+			<Item Name="switchboard_read_env.vi" Type="VI" URL="../switchboard_read_env.vi"/>
+			<Item Name="switchboard_switch.vi" Type="VI" URL="../switchboard_switch.vi"/>
+			<Item Name="switchboard_toggle_display.vi" Type="VI" URL="../switchboard_toggle_display.vi"/>
+			<Item Name="switchboard_write.vi" Type="VI" URL="../switchboard_write.vi"/>
+			<Item Name="top_close_devices.vi" Type="VI" URL="../top_close_devices.vi"/>
+			<Item Name="top_display_externals.vi" Type="VI" URL="../top_display_externals.vi"/>
+			<Item Name="top_format_plots.vi" Type="VI" URL="../top_format_plots.vi"/>
+			<Item Name="top_handle_output.vi" Type="VI" URL="../top_handle_output.vi"/>
+			<Item Name="top_init_devices.vi" Type="VI" URL="../top_init_devices.vi"/>
+			<Item Name="top_loop.vi" Type="VI" URL="../top_loop.vi"/>
+			<Item Name="top_read_input.vi" Type="VI" URL="../top_read_input.vi"/>
+			<Item Name="top_save_plots.vi" Type="VI" URL="../top_save_plots.vi"/>
+			<Item Name="top_set_defaults.vi" Type="VI" URL="../top_set_defaults.vi"/>
+			<Item Name="top_take_measurements.vi" Type="VI" URL="../top_take_measurements.vi"/>
+			<Item Name="util_array_to_string.vi" Type="VI" URL="../util_array_to_string.vi"/>
+			<Item Name="util_dialog_timeout_one_button.vi" Type="VI" URL="../util_dialog_timeout_one_button.vi"/>
+			<Item Name="util_dialog_timeout_three_button.vi" Type="VI" URL="../util_dialog_timeout_three_button.vi"/>
+			<Item Name="util_is_in_array.vi" Type="VI" URL="../util_is_in_array.vi"/>
+			<Item Name="util_multiline_int_to_array.vi" Type="VI" URL="../util_multiline_int_to_array.vi"/>
+			<Item Name="util_nearest_in_array.vi" Type="VI" URL="../util_nearest_in_array.vi"/>
+			<Item Name="util_prepare_XY_graph.vi" Type="VI" URL="../util_prepare_XY_graph.vi"/>
+			<Item Name="util_sort_array_by_1st_col.vi" Type="VI" URL="../util_sort_array_by_1st_col.vi"/>
+			<Item Name="util_stddev_variance.vi" Type="VI" URL="../util_stddev_variance.vi"/>
 		</Item>
-		<Item Name="TypeDefs" Type="Folder">
+		<Item Name="typedefs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Dynamic_data.ctl" Type="VI" URL="../Dynamic_data.ctl"/>
-			<Item Name="Env_data.ctl" Type="VI" URL="../Env_data.ctl"/>
-			<Item Name="Front_panel_refs.ctl" Type="VI" URL="../Front_panel_refs.ctl"/>
-			<Item Name="Input_parameters.ctl" Type="VI" URL="../Input_parameters.ctl"/>
-			<Item Name="LCR_data.ctl" Type="VI" URL="../LCR_data.ctl"/>
-			<Item Name="Live_data.ctl" Type="VI" URL="../Live_data.ctl"/>
+			<Item Name="data_dynamic.ctl" Type="VI" URL="../data_dynamic.ctl"/>
+			<Item Name="data_env.ctl" Type="VI" URL="../data_env.ctl"/>
+			<Item Name="data_LCR.ctl" Type="VI" URL="../data_LCR.ctl"/>
+			<Item Name="data_live.ctl" Type="VI" URL="../data_live.ctl"/>
+			<Item Name="input_params.ctl" Type="VI" URL="../input_params.ctl"/>
+			<Item Name="refs_front_panel.ctl" Type="VI" URL="../refs_front_panel.ctl"/>
 		</Item>
 		<Item Name="HexDAQ.vi" Type="VI" URL="../HexDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
