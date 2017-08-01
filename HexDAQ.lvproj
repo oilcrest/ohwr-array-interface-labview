@@ -51,9 +51,9 @@
 			<Item Name="sub_set_measurement_type_specifics.vi" Type="VI" URL="../sub_set_measurement_type_specifics.vi"/>
 			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
 			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
-			<Item Name="switchboard_IVCV.vi" Type="VI" URL="../switchboard_IVCV.vi"/>
+			<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
 			<Item Name="switchboard_read_env.vi" Type="VI" URL="../switchboard_read_env.vi"/>
-			<Item Name="switchboard_switch.vi" Type="VI" URL="../switchboard_switch.vi"/>
+			<Item Name="SwitchBoard_switch.vi" Type="VI" URL="../SwitchBoard_switch.vi"/>
 			<Item Name="top_close_devices.vi" Type="VI" URL="../top_close_devices.vi"/>
 			<Item Name="top_display_externals.vi" Type="VI" URL="../top_display_externals.vi"/>
 			<Item Name="top_format_plots.vi" Type="VI" URL="../top_format_plots.vi"/>
