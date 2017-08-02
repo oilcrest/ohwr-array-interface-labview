@@ -70,6 +70,7 @@
 			<Item Name="util_equal_column_width.vi" Type="VI" URL="../util_equal_column_width.vi"/>
 			<Item Name="util_is_in_array.vi" Type="VI" URL="../util_is_in_array.vi"/>
 			<Item Name="util_multiline_int_to_array.vi" Type="VI" URL="../util_multiline_int_to_array.vi"/>
+			<Item Name="util_multline_comment_hash.vi" Type="VI" URL="../util_multline_comment_hash.vi"/>
 			<Item Name="util_nearest_in_array.vi" Type="VI" URL="../util_nearest_in_array.vi"/>
 			<Item Name="util_prepare_XY_graph.vi" Type="VI" URL="../util_prepare_XY_graph.vi"/>
 			<Item Name="util_sort_array_by_1st_col.vi" Type="VI" URL="../util_sort_array_by_1st_col.vi"/>

@@ -19,7 +19,8 @@
 #VISA LCR:		LCR_E4980
 #HexPlot cmd:		HexPlot.exe -df NONE -i "C:\Users\Administrator\cernbox\HGCAL test results\Data\HPK_6in_256_Open_Switchdelay0.3\HPK_6in_256_Open_Switchdelay0.3_CV.txt" -o  "C:\Users\Administrator\cernbox\HGCAL test results\Data\HPK_6in_256_Open_Switchdelay0.3\HPK_6in_256_Open_Switchdelay0.3_CV.pdf" -CV  -p HEX -ys 1  -select -200  -if SELECTOR:PADNUM:VAL:no:no:no:no:no:no:no:no:no:no:no:no:no:no  -pn 0  -g "C:\Users\Administrator\Desktop\HGCAL_sensor_tests\geo\hex_positions_HPK_256ch_6inch_testcap.txt"
 #HexPlot on matrix cmd:	HexPlot.exe -df NONE -i "C:\Users\Administrator\cernbox\HGCAL test results\Data\HPK_6in_256_Open_Switchdelay0.3\HPK_6in_256_Open_Switchdelay0.3_CV.txt" -o  "C:\Users\Administrator\cernbox\HGCAL test results\Data\HPK_6in_256_Open_Switchdelay0.3\HPK_6in_256_Open_Switchdelay0.3_CV.pdf" -CV  -p HEX -ys 1  -select -200  -if SELECTOR:PADNUM:VAL:no:no:no:no:no:no:no:no:no:no:no:no:no:no  -pn 0  -g "C:\Users\Administrator\Desktop\HGCAL_sensor_tests\geo\switch_matrix.txt" -m "C:\Users\Administrator\Desktop\HGCAL_sensor_tests\maps\Probe_card_HPK_6in_256ch.txt" 
-#Comments:		
+#Comments:			
+
 
 #Voltage	#Channel	#Cp	#Error	#Tot. curr.	#Act. vlt.	#Time	#Temp	#Hum.	#Cs	#Error	#Impedance	#Error	#Phase	#Error	#Cp uncorr.	#Cs uncorr.
 #[V]     	#         	#[pF]	#[pF] 	#[nA]        	#[V]        	#[s] 	#[°C]	#[%] 	#[pF]	#[pF] 	#[Ohm]     	#[Ohm]	#[Rad]	#[Rad]	#[pF]        	#[pF]        
