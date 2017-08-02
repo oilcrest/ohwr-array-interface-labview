@@ -43,6 +43,7 @@
 			<Item Name="sub_format_datafile.vi" Type="VI" URL="../sub_format_datafile.vi"/>
 			<Item Name="sub_get_array_element.vi" Type="VI" URL="../sub_get_array_element.vi"/>
 			<Item Name="sub_get_GPIB_address.vi" Type="VI" URL="../sub_get_GPIB_address.vi"/>
+			<Item Name="sub_invert_values.vi" Type="VI" URL="../sub_invert_values.vi"/>
 			<Item Name="sub_plot_all_channels.vi" Type="VI" URL="../sub_plot_all_channels.vi"/>
 			<Item Name="sub_plot_single_channel.vi" Type="VI" URL="../sub_plot_single_channel.vi"/>
 			<Item Name="sub_prepare_HexPlot_command.vi" Type="VI" URL="../sub_prepare_HexPlot_command.vi"/>
