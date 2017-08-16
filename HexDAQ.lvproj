@@ -56,6 +56,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="sub_prepare_IV_CV_graph.vi" Type="VI" URL="../sub_prepare_IV_CV_graph.vi"/>
 			<Item Name="sub_prepare_outputfiles.vi" Type="VI" URL="../sub_prepare_outputfiles.vi"/>
 			<Item Name="sub_set_measurement_type_specifics.vi" Type="VI" URL="../sub_set_measurement_type_specifics.vi"/>
+			<Item Name="sub_take_measurements.vi" Type="VI" URL="../sub_take_measurements.vi"/>
 			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
 			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
 			<Item Name="switchboard_IVCV.vi" Type="VI" URL="../switchboard_IVCV.vi"/>
@@ -70,7 +71,6 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="top_read_input.vi" Type="VI" URL="../top_read_input.vi"/>
 			<Item Name="top_save_plots.vi" Type="VI" URL="../top_save_plots.vi"/>
 			<Item Name="top_set_defaults.vi" Type="VI" URL="../top_set_defaults.vi"/>
-			<Item Name="top_take_measurements.vi" Type="VI" URL="../top_take_measurements.vi"/>
 			<Item Name="util_array_to_string.vi" Type="VI" URL="../util_array_to_string.vi"/>
 			<Item Name="util_dialog_timeout_one_button.vi" Type="VI" URL="../util_dialog_timeout_one_button.vi"/>
 			<Item Name="util_dialog_timeout_three_button.vi" Type="VI" URL="../util_dialog_timeout_three_button.vi"/>
