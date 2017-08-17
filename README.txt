@@ -51,10 +51,19 @@ For the Sensirion SHT1x/7x sensors:
     - automatic re-measurement of a cell's value when unexpectedly different from other cells
     - temperature correction for IV
 
+# DONE commit 17.8.2017
+  - reintroduce selection between sensor polarity but use just for contact test
+  - reorder front panel
+  - introduce debug features
+
+# DONE commit 16.8.2017
+  - remove polarity switch, data write out always as recorded
+  - new HexPlot verison, convert geo files to new format
+
 REJECTED:
   - invert z scale when only negative values in HexPlot -> show values as they are recorded
 
-# DONE
+# DONE in between
   - verify HPK256 6 inch map with multimeter
   - update switchboard drivers from zip file in instr.lib
   - align columns with header
