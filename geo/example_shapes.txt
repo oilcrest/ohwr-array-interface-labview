@@ -56,7 +56,7 @@
 -2	+0.00	+0.00	0	SIZE:0.0,TEXT:Available~transformations~for~gemoetry~file~(ordered~execution)
 
 45	-5.50	-1.00	3	SIZE:0.5
-46	-4.50	-1.00	3	SIZE:0.5,ROTATE:-0.001,TEXT:Invert
+46	-4.50	-1.00	3	SIZE:0.5,INVERT:1,TEXT:Invert
 47	-3.50	-1.00	10	SIZE:0.5
 48	-2.50	-1.00	10	SIZE:0.5,ROTATE:300,TEXT:Rotate
 49	-1.50	-1.00	12	SIZE:0.5
@@ -78,3 +78,16 @@
 65	+4.50	-2.00	27	SIZE:0.5,ROTATE:45,X_CROP:0.4,ROTATE:135,TEXT:#splitline{#splitline{Rotate}{Crop~x}}{Rotate}
 66	-5.50	-3.00	4	SIZE:0.5
 67	-4.50	-3.00	4	SIZE:0.5,WIDTH:0.04,TEXT:#splitline{Change}{width}
+68	-3.50	-3.00	38	SIZE:0.5
+69	-2.50	-3.00	38	SIZE:0.5,WIDTH:0.1,TEXT:#splitline{Change}{width}
+70	-1.50	-3.00	8	SIZE:0.5
+71	-0.50	-3.00	8	SIZE:0.5,WIDTH:0.2,TEXT:#splitline{Change}{width}
+72	+0.50	-3.00	15	SIZE:0.5
+73	+1.50	-3.00	15	SIZE:0.5,X_SHEAR:1,TEXT:Shear
+74	+2.50	-3.00	27	SIZE:0.5
+75	+3.50	-3.00	27	SIZE:0.5,TEXT_Y_OFFSET:-0.5,TEXT:#splitline{Move}{text}
+
+#100	-3.00	-5.00	3	SIZE:2,ROTATE:0
+#101	-1.00	-5.00	3	SIZE:2,ROTATE:90
+#102	+1.00	-5.00	3	SIZE:2,INVERT:1,ROTATE:0
+#103	+3.00	-5.00	3	SIZE:2,INVERT:1,ROTATE:45
