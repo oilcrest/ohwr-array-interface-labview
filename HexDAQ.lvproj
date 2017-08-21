@@ -47,21 +47,18 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="source_read_voltage.vi" Type="VI" URL="../source_read_voltage.vi"/>
 			<Item Name="sub_elapsed_time.vi" Type="VI" URL="../sub_elapsed_time.vi"/>
 			<Item Name="sub_format_datafile.vi" Type="VI" URL="../sub_format_datafile.vi"/>
-			<Item Name="sub_get_array_element.vi" Type="VI" URL="../sub_get_array_element.vi"/>
-			<Item Name="sub_get_GPIB_address.vi" Type="VI" URL="../sub_get_GPIB_address.vi"/>
 			<Item Name="sub_invert_values.vi" Type="VI" URL="../sub_invert_values.vi"/>
 			<Item Name="sub_plot_all_channels.vi" Type="VI" URL="../sub_plot_all_channels.vi"/>
 			<Item Name="sub_plot_single_channel.vi" Type="VI" URL="../sub_plot_single_channel.vi"/>
 			<Item Name="sub_prepare_HexPlot_command.vi" Type="VI" URL="../sub_prepare_HexPlot_command.vi"/>
 			<Item Name="sub_prepare_IV_CV_graph.vi" Type="VI" URL="../sub_prepare_IV_CV_graph.vi"/>
 			<Item Name="sub_prepare_outputfiles.vi" Type="VI" URL="../sub_prepare_outputfiles.vi"/>
-			<Item Name="sub_set_measurement_type_specifics.vi" Type="VI" URL="../sub_set_measurement_type_specifics.vi"/>
 			<Item Name="sub_take_measurements.vi" Type="VI" URL="../sub_take_measurements.vi"/>
 			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
 			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
-			<Item Name="switchboard_IVCV.vi" Type="VI" URL="../switchboard_IVCV.vi"/>
+			<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
 			<Item Name="switchboard_read_env.vi" Type="VI" URL="../switchboard_read_env.vi"/>
-			<Item Name="switchboard_switch.vi" Type="VI" URL="../switchboard_switch.vi"/>
+			<Item Name="SwitchBoard_switch.vi" Type="VI" URL="../SwitchBoard_switch.vi"/>
 			<Item Name="top_close_devices.vi" Type="VI" URL="../top_close_devices.vi"/>
 			<Item Name="top_display_externals.vi" Type="VI" URL="../top_display_externals.vi"/>
 			<Item Name="top_format_plots.vi" Type="VI" URL="../top_format_plots.vi"/>
@@ -71,10 +68,13 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="top_read_input.vi" Type="VI" URL="../top_read_input.vi"/>
 			<Item Name="top_save_plots.vi" Type="VI" URL="../top_save_plots.vi"/>
 			<Item Name="top_set_defaults.vi" Type="VI" URL="../top_set_defaults.vi"/>
+			<Item Name="top_set_measurement_type_specifics.vi" Type="VI" URL="../top_set_measurement_type_specifics.vi"/>
 			<Item Name="util_array_to_string.vi" Type="VI" URL="../util_array_to_string.vi"/>
 			<Item Name="util_dialog_timeout_one_button.vi" Type="VI" URL="../util_dialog_timeout_one_button.vi"/>
 			<Item Name="util_dialog_timeout_three_button.vi" Type="VI" URL="../util_dialog_timeout_three_button.vi"/>
 			<Item Name="util_equal_column_width.vi" Type="VI" URL="../util_equal_column_width.vi"/>
+			<Item Name="util_get_array_element.vi" Type="VI" URL="../util_get_array_element.vi"/>
+			<Item Name="util_get_GPIB_address.vi" Type="VI" URL="../util_get_GPIB_address.vi"/>
 			<Item Name="util_is_in_array.vi" Type="VI" URL="../util_is_in_array.vi"/>
 			<Item Name="util_multiline_int_to_array.vi" Type="VI" URL="../util_multiline_int_to_array.vi"/>
 			<Item Name="util_multline_comment_hash.vi" Type="VI" URL="../util_multline_comment_hash.vi"/>
