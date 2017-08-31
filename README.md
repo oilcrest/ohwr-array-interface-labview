@@ -84,6 +84,11 @@ The following authors, in alphabetical order, have contributed to the project:
 ### REJECTED:
   - invert z scale when only negative values in HexPlot -> show values as they are recorded
 
+### DONE commit 31.8.2017
+  - restructure project structure, propagate changes to code
+  - create shortcuts, introduce icon
+  - reset abort button at start
+
 ### DONE commit 17.8.2017
   - reintroduce selection between sensor polarity but use just for contact test
   - reorder front panel
