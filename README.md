@@ -1,4 +1,4 @@
-<img src="logo_small.png" width="100">
+<img src="img/logo_small.png" width="100">
 
 
 # HexDAQ
