@@ -10,7 +10,7 @@ This is a program designed to steer the hardware on HGCAL sensor testing setups,
 
 
 
-# About this Readme
+## About this Readme
 The following lists some advice and features to implement as well as already implemented features, but is not intended to document the entire program. Every VI has a documentation string attached, which shows up when hovering with the mouse and activating the help window (ctrl + h). HexDAQ is implemented as a LabVIEW state machine. If you do not know what this is, read it up before trying to understand the implementation.
 
 
@@ -32,7 +32,7 @@ HexDAQ is developed and tested on Windows. Some features are Windows specific an
 
 
 
-# Naming conventions
+## Naming conventions
 * All VIs are lower-case.
 * All VIs except the main VI are in a separate virtual folder.
 * All type definitions are in a separate virtual folder
