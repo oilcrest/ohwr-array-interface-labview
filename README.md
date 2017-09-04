@@ -84,6 +84,9 @@ The following authors, in alphabetical order, have contributed to the project:
 ### REJECTED:
   - invert z scale when only negative values in HexPlot -> show values as they are recorded
 
+### DONE commit 4.9.2017
+  - implement interlock
+
 ### DONE commit 31.8.2017
   - restructure project structure, propagate changes to code
   - create shortcuts, introduce icon
@@ -123,7 +126,7 @@ The following authors, in alphabetical order, have contributed to the project:
   - add possibility for sensor specific correction files
   - HexDAQ expected a file called /maps/Probe_card_HPK_6in_265chan.txt but there was only a file called ...265ch.txt
   - updated HexPlot.exe to fix numbering issue
-  - Add the guard ring to the list of channels to be scanned on channel 63.
+  - add the guard ring to the list of channels to be scanned on channel 63.
 
 ### DONE commit 3.7.2017
   - add sufficient ":no" to match number of columns
@@ -131,7 +134,7 @@ The following authors, in alphabetical order, have contributed to the project:
   - add 2nd column in map files to make them consistent with HexPlot maps
   - add maps read from files
   - fix sampling #1 std deviation bug
-  - Plot total current in uA
+  - plot total current in uA
   - add HPK 8 inch 256 channels geo file
 
 ### DONE commit 29.6.2017
