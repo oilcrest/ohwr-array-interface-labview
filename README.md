@@ -86,6 +86,7 @@ The following authors, in alphabetical order, have contributed to the project:
 
 ### DONE commit 4.9.2017
   - implement interlock
+  - skip higher voltages when compliance was reached once
 
 ### DONE commit 31.8.2017
   - restructure project structure, propagate changes to code
