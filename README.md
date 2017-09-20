@@ -19,10 +19,10 @@ The following lists some advice and features to implement as well as already imp
 ## Installation:
 
 HexDAQ is developed and tested on Windows. Some features are Windows specific and will not work on an other OS.
-* Make sure you have `VI properties> Execution> "Execution system: user interface"` enabled
+* make sure you have `VI properties> Execution> "Execution system: user interface"` enabled
 
 ### Dependencies
-* Drivers: The instrument drivers required for this program to run are distributed in the archive `instr.lib.zip`. Place the content of into the `instr.lib` directory of your LabVIEW installation (something like `C:\Program Files (x86)\National Instruments\LabVIEW 2016\instr.lib`) to make LabVIEW aware of them.
+* drivers: The instrument drivers required for this program to run are distributed in the archive `instr.lib.zip`. Place the content of into the `instr.lib` directory of your LabVIEW installation (something like `C:\Program Files (x86)\National Instruments\LabVIEW 2016\instr.lib`) to make LabVIEW aware of them.
 * [notepad.exe](https://notepad-plus-plus.org) for the "Open after execution" functionality
 * [HexPlot.exe](https://gitlab.cern.ch/CLICdp/HGCAL/HGCAL_sensor_analysis) for the "Plot after execution" functionality
 * [ROOT](https://root.cern.ch/building-root) (HexPlot uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed)
@@ -52,9 +52,16 @@ HexDAQ is developed and tested on Windows. Some features are Windows specific an
 ## Development of HexDAQ
 
 ### Contributing
-Feel free to give feedback, report issues or request changes. Contributions and merge requests are welcome as well! However, beware that LabVIEW has no simple git integration, so the file-wise development necessarily is linear. If you would like to change the LabVIEW code, let me know in advance, such that we do not change the same file simultaneously.
+Feel free to give feedback, report issues or request changes. Contributions and merge requests are welcome as well!
 
-Base your branch on the protected `develop` branch. Before submitting the final merge request import the newest changes from the develop branch and make sure everything runs as expected.
+#### Useful software
+Install [LabViewGitEnv](https://github.com/joerg/LabViewGitEnv) to integrate the LabVIEW diff and merge tools into git.
+
+#### Branches
+Please follow these conventions to make contributions smooth:
+* base your branch on the protected `develop` branch
+* open up a `WIP:` (Work In Progress) pull request (PR) to discuss changes and implementations on the way
+* before submitting the final PR rebase on the `develop` branch and make sure everything runs as expected
 
 ### Contributors
 HexPlot has been developed and is maintained by:
@@ -68,21 +75,16 @@ The following authors, in alphabetical order, have contributed to the project:
 
 
 ## List of implemented features
-
-### TODO
-
-- low priority
-  - implement open correction LCR frequency check
-  - 1*NPLC10 or 10*NPLC1 for measurement?
-  - remove empty columns for IV
-  - overlay of all IV curves
-  - make estimated remaining time correct also for IV+CV
-  - automatic re-measurement of a cell's value when unexpectedly different from other cells
-  - temperature correction for IV
-
+The following lists requested features that have been dealt with and either been rejected or implemented.
 
 ### REJECTED:
   - invert z scale when only negative values in HexPlot -> show values as they are recorded
+  - overlay of all IV curves can be done offline and conveniently with [HexPlot](https://gitlab.cern.ch/CLICdp/HGCAL/HGCAL_sensor_analysis)
+  - temperature correction for IV -> should be done offline
+
+### DONE commit 20.9.2017
+  - slow down voltage ramp by a factor of 2
+  - wait 15 seconds after measurement
 
 ### DONE commit 4.9.2017
   - implement interlock
