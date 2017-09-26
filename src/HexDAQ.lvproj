@@ -47,6 +47,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="sub_elapsed_time.vi" Type="VI" URL="../sub_elapsed_time.vi"/>
 			<Item Name="sub_format_datafile.vi" Type="VI" URL="../sub_format_datafile.vi"/>
 			<Item Name="sub_invert_values.vi" Type="VI" URL="../sub_invert_values.vi"/>
+			<Item Name="sub_missing_current.vi" Type="VI" URL="../sub_missing_current.vi"/>
 			<Item Name="sub_plot_all_channels.vi" Type="VI" URL="../sub_plot_all_channels.vi"/>
 			<Item Name="sub_plot_single_channel.vi" Type="VI" URL="../sub_plot_single_channel.vi"/>
 			<Item Name="sub_prepare_HexPlot_command.vi" Type="VI" URL="../sub_prepare_HexPlot_command.vi"/>
@@ -230,6 +231,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="FTD2XX.dll" Type="Document" URL="FTD2XX.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
