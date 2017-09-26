@@ -55,7 +55,18 @@ HexDAQ is developed and tested on Windows. Some features are Windows specific an
 Feel free to give feedback, report issues or request changes. Contributions and merge requests are welcome as well!
 
 #### Useful software
-Install [LabViewGitEnv](https://github.com/joerg/LabViewGitEnv) to integrate the LabVIEW diff and merge tools into git.
+Install [LabViewGitEnv](https://github.com/joerg/LabViewGitEnv) to integrate the LabVIEW diff and merge tools into git. You can change the options of LVCompare to get rid of unwanted diffs by attaching the limitations to file path of LVCompare in "LVCompareWrapper.sh". For example:
+```
+"${LabViewShared}/LabVIEW Compare/LVCompare.exe" "${LOCAL}" "${REMOTE}" "-lvpath" "${LabViewBin}" "-nofppos" "-nobdpos" "-nobdcosm"
+```
+LVCompare Options:
+* `-noattr` skip VI attributes
+* `-nofp` skip front panels
+* `-nofppos` skip the size or position of front panel objects.
+* `-nobd` skip block diagrams
+* `-nobdcosm` skip the appearance of block diagram objects.
+* `-nobdpos` skip the size or position of block diagram objects.
+
 
 #### Branches
 Please follow these conventions to make contributions smooth:
