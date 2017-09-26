@@ -82,6 +82,9 @@ The following lists requested features that have been dealt with and either been
   - overlay of all IV curves can be done offline and conveniently with [HexPlot](https://gitlab.cern.ch/CLICdp/HGCAL/HGCAL_sensor_analysis)
   - temperature correction for IV -> should be done offline
 
+### DONE commit 26.9.2017
+  - add missing current indicator subtracting the sum of measured currents from the measured source current
+
 ### DONE commit 20.9.2017
   - slow down voltage ramp by a factor of 2
   - wait 15 seconds after measurement
