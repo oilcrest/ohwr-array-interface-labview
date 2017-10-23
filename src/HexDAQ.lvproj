@@ -135,6 +135,8 @@ Email: andreas.alexander.maier@cern.ch</Property>
 				<Item Name="Keithley 2001 Single Read.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Single Read.vi"/>
 				<Item Name="Keithley 2001 Trigger Config.vi" Type="VI" URL="/&lt;instrlib&gt;/ke2001/KE2001.LLB/Keithley 2001 Trigger Config.vi"/>
 				<Item Name="Keithley 2450.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2450/Keithley 2450.lvlib"/>
+				<Item Name="Keithley 6517 Perform Zero Correction_Cut.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley 6517/Examples/Keithley 6517 Perform Zero Correction_Cut.vi"/>
+				<Item Name="Keithley 6517.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 6517/Keithley 6517.lvlib"/>
 				<Item Name="Keithley6487_autozero.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley6487/Keithley6487_autozero.vi"/>
 				<Item Name="Keithley6487_formatdata.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley6487/Keithley6487_formatdata.vi"/>
 				<Item Name="Keithley6487_read.vi" Type="VI" URL="/&lt;instrlib&gt;/Keithley6487/Keithley6487_read.vi"/>
@@ -221,9 +223,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="Tag-t&apos;Env_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Env_data.ctl&apos;.lvlib"/>
 			<Item Name="Tag-str.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-str.lvlib"/>
-			<Item Name="Tag-t&apos;Input_parameters.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Input_parameters.ctl&apos;.lvlib"/>
 			<Item Name="Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib"/>
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
@@ -232,6 +232,9 @@ Email: andreas.alexander.maier@cern.ch</Property>
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Tag-t&apos;data_env.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;data_env.ctl&apos;.lvlib"/>
+			<Item Name="Tag-t&apos;input_params.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;input_params.ctl&apos;.lvlib"/>
+			<Item Name="ftd2xx.dll" Type="Document" URL="../../../../../../../Windows/System32/ftd2xx.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
