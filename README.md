@@ -35,8 +35,8 @@ HexDAQ is developed and tested on Windows. Some features are Windows specific an
 
 
 ## Naming conventions
-* All VIs are lower-case.
-* All VIs except the main VI are in a separate virtual folder.
+* All VIs are lower-case
+* All VIs except the main VI are in a separate virtual folder
 * All type definitions are in a separate virtual folder
 * VIs are given a prefix depending on their function:
   * top - any VI which is directly referenced in the main
@@ -57,7 +57,10 @@ HexDAQ is developed and tested on Windows. Some features are Windows specific an
 Feel free to give feedback, report issues or request changes. Contributions and merge requests are welcome as well!
 
 #### Useful software
-Install [LabViewGitEnv](https://github.com/joerg/LabViewGitEnv) to integrate the LabVIEW diff and merge tools into git. You can change the options of LVCompare to get rid of unwanted diffs by attaching the limitations to file path of LVCompare in "LVCompareWrapper.sh". For example:
+Install [LabViewGitEnv](https://github.com/joerg/LabViewGitEnv) to integrate the LabVIEW diff and merge tools into git. 
+
+You can change the options of LVCompare to get rid of unwanted diffs by attaching the limitations to file path of LVCompare in "LVCompareWrapper.sh". 
+For example:
 ```
 "${LabViewShared}/LabVIEW Compare/LVCompare.exe" "${LOCAL}" "${REMOTE}" "-lvpath" "${LabViewBin}" "-nofppos" "-nobdpos" "-nobdcosm"
 ```
