@@ -24,13 +24,14 @@ HexDAQ is developed and tested on Windows. Some features are Windows specific an
 * make sure you have `VI properties> Execution> "Execution system: user interface"` enabled
 
 ### Dependencies
+* LabVIEW 2016 (32 bit): 64 bit will fail loading dlls. Older versions do not have the channel features, which allow data exchange between loops. LabVIEW 2017 is not backwards compatible.
 * drivers: The instrument drivers required for this program to run are distributed in the archive `instr.lib.zip`. Place the content of into the `instr.lib` directory of your LabVIEW installation (something like `C:\Program Files (x86)\National Instruments\LabVIEW 2016\instr.lib`) to make LabVIEW aware of them.
 * [notepad.exe](https://notepad-plus-plus.org) for the "Open after execution" functionality
 * [HexPlot.exe](https://gitlab.cern.ch/CLICdp/HGCAL/HGCAL_sensor_analysis) for the "Plot after execution" functionality
 * [ROOT](https://root.cern.ch/building-root) (HexPlot uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed)
-*	[Acrobat Reader(TM)](https://get.adobe.com/reader/) for embedded PDF view
+* [Acrobat Reader(TM)](https://get.adobe.com/reader/) for embedded PDF view
 * [Sensirion SHT1x/7x](https://www.digikey.com/en/product-highlight/s/sensirion/ek-h5-eval-kits) for the Sensirion SHT1x/7x sensors. In case drivers in instr.lib.zip are not enough, install software Viewer Software Humidity Evaluation Kit EK-H5 ([direct link](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/13_Sample_Codes_Software/General/Sensirion_USB_RS485_Sensor_Viewer_V2.84.msi)).
-
+* [FTDI driver](http://www.ftdichip.com/Drivers/D2XX.htm) for communication via Virtual COM Port (VCP). [Installation script](http://www.ftdichip.com/Drivers/CDM/CDM21228_Setup.zip) on the same page.
 
 
 
@@ -76,6 +77,8 @@ LVCompare Options:
 #### Branches
 Please follow these conventions to make contributions smooth:
 * base your branch on the protected `develop` branch
+* follow the [naming conventions](#naming-conventions)
+* include any new device drivers you use in instr.lib.zip with separate folders for original drivers and custom modified drivers
 * open up a `WIP:` (Work In Progress) pull request (PR) to discuss changes and implementations on the way
 * before submitting the final PR rebase on the `develop` branch and make sure everything runs as expected
 
@@ -86,7 +89,8 @@ HexPlot has been developed and is maintained by:
 
 The following authors, in alphabetical order, have contributed to the project:
 
-* maybe you?
+* Manfred Valentan, HEPHY, @valentan
+* Florian Michael Pitters, CERN, @fpipper
 
 
 
