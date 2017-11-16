@@ -93,6 +93,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="refs_front_panel.ctl" Type="VI" URL="../refs_front_panel.ctl"/>
 		</Item>
 		<Item Name="HexDAQ.vi" Type="VI" URL="../HexDAQ.vi"/>
+		<Item Name="Tag-t&apos;input_params.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;input_params.ctl&apos;.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
@@ -233,7 +234,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Tag-t&apos;input_params.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;input_params.ctl&apos;.lvlib"/>
+			<Item Name="sub_write_voltage_file.vi" Type="VI" URL="../sub_write_voltage_file.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
