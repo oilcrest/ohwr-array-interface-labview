@@ -90,6 +90,7 @@ HexPlot has been developed and is maintained by:
 The following authors, in alphabetical order, have contributed to the project:
 
 * Florian Michael Pitters, CERN, @fpipper
+* Thorben Quast, CERN, RWTH Aachen, @tquast
 * Manfred Valentan, HEPHY, @valentan
 
 
