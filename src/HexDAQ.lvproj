@@ -54,6 +54,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="sub_prepare_IV_CV_graph.vi" Type="VI" URL="../sub_prepare_IV_CV_graph.vi"/>
 			<Item Name="sub_prepare_outputfiles.vi" Type="VI" URL="../sub_prepare_outputfiles.vi"/>
 			<Item Name="sub_take_measurements.vi" Type="VI" URL="../sub_take_measurements.vi"/>
+			<Item Name="sub_write_custom_pads.vi" Type="VI" URL="../sub_write_custom_pads.vi"/>
 			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
 			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
 			<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
