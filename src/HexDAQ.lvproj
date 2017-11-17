@@ -95,6 +95,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 		</Item>
 		<Item Name="HexDAQ.vi" Type="VI" URL="../HexDAQ.vi"/>
 		<Item Name="Tag-t&apos;input_params.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;input_params.ctl&apos;.lvlib"/>
+		<Item Name="sub_write_CV_correction_file.vi" Type="VI" URL="../sub_write_CV_correction_file.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
