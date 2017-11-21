@@ -57,6 +57,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="sub_write_custom_pads.vi" Type="VI" URL="../sub_write_custom_pads.vi"/>
 			<Item Name="sub_write_CV_correction_file.vi" Type="VI" URL="../sub_write_CV_correction_file.vi"/>
 			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
+			<Item Name="sub_write_voltage_file.vi" Type="VI" URL="../sub_write_voltage_file.vi"/>
 			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
 			<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
 			<Item Name="switchboard_read_env.vi" Type="VI" URL="../switchboard_read_env.vi"/>
@@ -68,6 +69,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="top_init_devices.vi" Type="VI" URL="../top_init_devices.vi"/>
 			<Item Name="top_loop.vi" Type="VI" URL="../top_loop.vi"/>
 			<Item Name="top_read_input.vi" Type="VI" URL="../top_read_input.vi"/>
+			<Item Name="top_reset.vi" Type="VI" URL="../top_reset.vi"/>
 			<Item Name="top_save_plots.vi" Type="VI" URL="../top_save_plots.vi"/>
 			<Item Name="top_set_defaults.vi" Type="VI" URL="../top_set_defaults.vi"/>
 			<Item Name="top_set_measurement_type_specifics.vi" Type="VI" URL="../top_set_measurement_type_specifics.vi"/>
@@ -236,7 +238,6 @@ Email: andreas.alexander.maier@cern.ch</Property>
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="sub_write_voltage_file.vi" Type="VI" URL="../sub_write_voltage_file.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
