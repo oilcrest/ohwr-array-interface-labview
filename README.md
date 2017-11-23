@@ -9,7 +9,7 @@ Version 1.3.22
 
 This is a program designed to steer the hardware on HGCAL sensor testing setups, record data in user-definable routines and store them. It is interfaced to [HexPlot](https://gitlab.cern.ch/CLICdp/HGCAL/HGCAL_sensor_analysis) for display of recorded data in geometrical shapes.
 
-For a documentation of wafer loading procedures see [here](WAFER_LOADING.md).
+For a documentation of wafer loading procedures see [here](info/wafer_loading.md).
 
 
 
