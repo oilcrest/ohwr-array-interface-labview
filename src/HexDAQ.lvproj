@@ -57,6 +57,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="sub_write_custom_pads.vi" Type="VI" URL="../sub_write_custom_pads.vi"/>
 			<Item Name="sub_write_CV_correction_file.vi" Type="VI" URL="../sub_write_CV_correction_file.vi"/>
 			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
+			<Item Name="sub_write_masked_pads.vi" Type="VI" URL="../sub_write_masked_pads.vi"/>
 			<Item Name="sub_write_voltage_file.vi" Type="VI" URL="../sub_write_voltage_file.vi"/>
 			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
 			<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
