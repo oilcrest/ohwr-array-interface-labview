@@ -44,6 +44,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="source_ramp_voltage.vi" Type="VI" URL="../source_ramp_voltage.vi"/>
 			<Item Name="source_read_current.vi" Type="VI" URL="../source_read_current.vi"/>
 			<Item Name="source_read_voltage.vi" Type="VI" URL="../source_read_voltage.vi"/>
+			<Item Name="sub_check_mask_condition.vi" Type="VI" URL="../sub_check_mask_condition.vi"/>
 			<Item Name="sub_elapsed_time.vi" Type="VI" URL="../sub_elapsed_time.vi"/>
 			<Item Name="sub_format_datafile.vi" Type="VI" URL="../sub_format_datafile.vi"/>
 			<Item Name="sub_invert_values.vi" Type="VI" URL="../sub_invert_values.vi"/>
