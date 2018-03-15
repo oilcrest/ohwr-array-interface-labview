@@ -44,9 +44,11 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="source_ramp_voltage.vi" Type="VI" URL="../source_ramp_voltage.vi"/>
 			<Item Name="source_read_current.vi" Type="VI" URL="../source_read_current.vi"/>
 			<Item Name="source_read_voltage.vi" Type="VI" URL="../source_read_voltage.vi"/>
+			<Item Name="sub_check_mask_condition.vi" Type="VI" URL="../sub_check_mask_condition.vi"/>
 			<Item Name="sub_elapsed_time.vi" Type="VI" URL="../sub_elapsed_time.vi"/>
 			<Item Name="sub_format_datafile.vi" Type="VI" URL="../sub_format_datafile.vi"/>
 			<Item Name="sub_invert_values.vi" Type="VI" URL="../sub_invert_values.vi"/>
+			<Item Name="sub_is_masked_pad.vi" Type="VI" URL="../sub_is_masked_pad.vi"/>
 			<Item Name="sub_missing_current.vi" Type="VI" URL="../sub_missing_current.vi"/>
 			<Item Name="sub_plot_all_channels.vi" Type="VI" URL="../sub_plot_all_channels.vi"/>
 			<Item Name="sub_plot_single_channel.vi" Type="VI" URL="../sub_plot_single_channel.vi"/>
@@ -57,6 +59,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			<Item Name="sub_write_custom_pads.vi" Type="VI" URL="../sub_write_custom_pads.vi"/>
 			<Item Name="sub_write_CV_correction_file.vi" Type="VI" URL="../sub_write_CV_correction_file.vi"/>
 			<Item Name="sub_write_datafile.vi" Type="VI" URL="../sub_write_datafile.vi"/>
+			<Item Name="sub_write_masked_pads.vi" Type="VI" URL="../sub_write_masked_pads.vi"/>
 			<Item Name="sub_write_voltage_file.vi" Type="VI" URL="../sub_write_voltage_file.vi"/>
 			<Item Name="switchboard_channel_mapping.vi" Type="VI" URL="../switchboard_channel_mapping.vi"/>
 			<Item Name="SwitchBoard_IVCV.vi" Type="VI" URL="../SwitchBoard_IVCV.vi"/>
@@ -228,7 +231,6 @@ Email: andreas.alexander.maier@cern.ch</Property>
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="Tag-t&apos;Env_data.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;Env_data.ctl&apos;.lvlib"/>
 			<Item Name="Tag-str.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-str.lvlib"/>
 			<Item Name="Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](c(a[.](stamp),a[.](dbl))).lvlib"/>
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
@@ -238,6 +240,7 @@ Email: andreas.alexander.maier@cern.ch</Property>
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Tag-t&apos;data_env.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;data_env.ctl&apos;.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
