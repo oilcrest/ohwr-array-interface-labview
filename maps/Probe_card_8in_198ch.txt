@@ -1,7 +1,5 @@
-# Probe card HPK 8in
- 199ch
+# Probe card HPK 8in 198ch
 # mapping to switch card numbers
-
 1	111
 2	179
 3	171
