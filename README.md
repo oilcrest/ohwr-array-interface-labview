@@ -84,14 +84,22 @@ Please follow these conventions to make contributions smooth:
 * before submitting the final PR rebase on the `develop` branch and make sure everything runs as expected
 
 ### Contributors
-HexPlot has been developed and is maintained by:
+The following authors, in alphabetical order, have contributed to HexDAQ:
+
+* Erica Brondolin, CERN, @ericabro
+* Itamar Levy, TAU, @itlevy
+* Andreas Alexander Maier, CERN, @amaier
+* Florian Michael Pitters, CERN, TU Vienna, @fpipper
+* Thorben Quast, CERN, RWTH Aachen, @tquast
+* Eva Sicking, CERN, @esicking
+* Manfred Valentan, HEPHY, @valentan
+
+HexDAQ was initially developed by:
 
 * Andreas Alexander Maier, CERN, @amaier
 
-The following authors, in alphabetical order, have contributed to the project:
+It is currently maintained by:
 
-* Florian Michael Pitters, CERN, @fpipper
+* Erica Brondolin, CERN, @ericabro
 * Thorben Quast, CERN, RWTH Aachen, @tquast
-* Manfred Valentan, HEPHY, @valentan
-
 
