@@ -5,7 +5,7 @@
 
 Version 1.3.22
 
-###  HGCAL sensor testing LabVIEW program
+###  HGCAL sensor testing LabVIEW™ program
 
 This is a program designed to steer the hardware on HGCAL sensor testing setups, record data in user-definable routines and store them. It is interfaced to [HexPlot](https://gitlab.cern.ch/CLICdp/HGCAL/HGCAL_sensor_analysis) for display of recorded data in geometrical shapes.
 
@@ -14,7 +14,7 @@ For a documentation of wafer loading procedures see [here](info/wafer_loading.md
 
 
 ## About this Readme
-The following lists some advice and features to implement as well as already implemented features, but is not intended to document the entire program. Every VI has a documentation string attached, which shows up when hovering with the mouse and activating the help window (ctrl + h). HexDAQ is implemented as a LabVIEW state machine. If you do not know what this is, read it up before trying to understand the implementation.
+The following lists some advice and features to implement as well as already implemented features, but is not intended to document the entire program. Every VI has a documentation string attached, which shows up when hovering with the mouse and activating the help window (ctrl + h). HexDAQ is implemented as a LabVIEW™ state machine. If you do not know what this is, read it up before trying to understand the implementation.
 
 
 
@@ -25,8 +25,8 @@ HexDAQ is developed and tested on Windows. Some features are Windows specific an
 * make sure you have `VI properties> Execution> "Execution system: user interface"` enabled
 
 ### Dependencies
-* LabVIEW 2016 (32 bit): 64 bit will fail loading dlls. Older versions do not have the channel features, which allow data exchange between loops. LabVIEW 2017 is not backwards compatible.
-* drivers: The instrument drivers required for this program to run are distributed in the archive `instr.lib.zip`. Place the content of into the `instr.lib` directory of your LabVIEW installation (something like `C:\Program Files (x86)\National Instruments\LabVIEW 2016\instr.lib`) to make LabVIEW aware of them.
+* LabVIEW™ 2016 (32 bit): 64 bit will fail loading dlls. Older versions do not have the channel features, which allow data exchange between loops. LabVIEW™ 2017 is not backwards compatible.
+* drivers: The instrument drivers required for this program to run are distributed in the archive `instr.lib.zip`. Place the content of into the `instr.lib` directory of your LabVIEW™ installation (something like `C:\Program Files (x86)\National Instruments\LabVIEW 2016\instr.lib`) to make LabVIEW™ aware of them.
 * [notepad.exe](https://notepad-plus-plus.org) for the "Open after execution" functionality
 * [HexPlot.exe](https://gitlab.cern.ch/CLICdp/HGCAL/HGCAL_sensor_analysis) for the "Plot after execution" functionality
 * [ROOT](https://root.cern.ch/building-root) (HexPlot uses Root libraries, so make sure you have Root 5 (Root 6 is not windows compatible) installed)
@@ -59,7 +59,7 @@ HexDAQ is developed and tested on Windows. Some features are Windows specific an
 Feel free to give feedback, report issues or request changes. Contributions and merge requests are welcome as well!
 
 #### Useful software
-Install [LabViewGitEnv](https://github.com/joerg/LabViewGitEnv) to integrate the LabVIEW diff and merge tools into git. 
+Install [LabViewGitEnv](https://github.com/joerg/LabViewGitEnv) to integrate the LabVIEW™ diff and merge tools into git. 
 
 You can change the options of LVCompare to get rid of unwanted diffs by attaching the limitations to file path of LVCompare in "LVCompareWrapper.sh". 
 For example:
