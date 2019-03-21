@@ -3,8 +3,6 @@
 
 # HexDAQ
 
-Version 1.3.22
-
 ###  HGCAL sensor testing LabVIEW™ program
 
 This is a program designed to steer the hardware on HGCAL sensor testing setups, record data in user-definable routines and store them. It is interfaced to [HexPlot](https://gitlab.cern.ch/CLICdp/HGCAL/HGCAL_sensor_analysis) for display of recorded data in geometrical shapes.
