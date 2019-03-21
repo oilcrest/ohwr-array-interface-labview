@@ -241,6 +241,8 @@ Email: andreas.alexander.maier@cern.ch</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Tag-t&apos;data_env.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-t&apos;data_env.ctl&apos;.lvlib"/>
+			<Item Name="input_params.ctl" Type="VI" URL="../../../../../HGCAL test results/Software/HexDAQ/src/input_params.ctl"/>
+			<Item Name="data_env.ctl" Type="VI" URL="../../../../../HGCAL test results/Software/HexDAQ/src/data_env.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
